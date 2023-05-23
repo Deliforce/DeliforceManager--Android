@@ -1,0 +1,333 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:orientation="vertical"
+    tools:context=".Activities.EarningsDetailsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/normal_font"
+                        android:text="00:00 PM - Delivery"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/normal_font"
+                        android:text="Successful"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/normal_font"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_14sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_id"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:drawableLeft="@drawable/order_id_resize"
+                        android:drawablePadding="4dp"
+                        android:fontFamily="@font/normal_font"
+                        android:gravity="center_vertical"
+                        android:maxLength="10"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="12345678900000"
+                        android:textColor="@color/grey_300" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_dash_line"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_minutes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:drawableLeft="@drawable/ic_time_glass_sand"
+                        android:drawablePadding="4dp"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/normal_font"
+                        android:gravity="center_vertical"
+                        android:text="0m - 0m"
+                        android:textColor="@color/grey_300" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f4f4f4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/normal_font"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/earnings_details"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/normal_font"
+                        android:text="@string/base_fare"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_basefare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/normal_font"
+                        android:text="0.00"
+                        android:textColor="@color/grey_400" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_height="1.5dp"
+                        android:background="@color/grey_100" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="@string/duration_fare"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_duration_fare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="0.00"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/grey_400" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.5dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@color/grey_100" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:text="Waiting Fare"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_waitingfare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/normal_font"
+                        android:textSize="@dimen/_12sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="0.00"
+                        android:textColor="@color/grey_400" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.5dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@color/grey_100" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:text="@string/distance_fare"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_distancefare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/normal_font"
+                        android:textSize="@dimen/_12sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="0.00"
+                        android:textColor="@color/grey_400" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.5dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@color/grey_100" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:text="@string/deduction"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:id="@+id/txt_earnings_details_deductionfare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="0.00"
+                        android:textColor="@color/grey_400" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.5dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@color/grey_100" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:text="@string/tips"
+                        android:textColor="@color/color_black" />
+
+                    <TextView
+                        android:id="@+id/txt_tips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/normal_font"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="0.00"
+                        android:textColor="@color/grey_400" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

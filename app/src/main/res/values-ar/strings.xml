@@ -1,0 +1,1205 @@
+<resources>
+       
+    <string name="app_name"> وكيل xquara </string>
+       
+    <string name="appLogicId"> xquara 3edbee8c0f3cdffa7cda0ee152ca81d2e </string>
+     
+       
+    <string name="submit_txt"> إرسال </string>
+
+       
+    <string name="content_desc"> هذه معاينة للصورة </string>
+       
+    <string name="alert_dialog_ok_btn_txt"> موافق </string>
+       
+    <string name="alert_dialog_cancel_btn_txt"> إلغاء </string>
+     
+       
+    <string name="alert_dialog_dismis_confirm_title_txt"> هل أنت متأكد أنك تريد الرفض؟ </string>
+       
+    <string name="logoutText"> هل أنت متأكد أنك تريد تسجيل الخروج؟ </string>
+       
+    <string name="website"> موقع الويب </string>
+       
+    <string name="next"> التالي </string>
+       
+    <string name="ok"> موافق </string>
+       
+    <string name="logout_app"> تسجيل الخروج </string>
+     
+       
+    <string name="yes"> نعم </string>
+       
+    <string name="no"> لا </string>
+     
+       
+    <string name="exit_app"> اضغط مرة أخرى للخروج </string>
+
+       
+    <string name="dialog_before_run_title"> إذن مطلوب </string>
+       
+    <string name="dialog_before_run_message">الرجاء قبول إذن الاتصال!</string>
+       
+    <string name="dialog_positive_button"> حسنًا </string>
+       
+    <string name="dialog_location_before_run_message"> الرجاء قبول إذن الموقع!</string>
+       
+    <string name="dialog_camera"> الرجاء قبول إذن الكاميرا! </string>
+       
+    <string name="title_activity_track_driver"> خريطة </string>
+       
+    <string name="title_activity_home"> نشاط المنزل </string>
+       
+    <string name="title_section1"> القسم 1 </string>
+       
+    <string name="title_section2"> القسم 2 </string>
+       
+    <string name="title_section3"> القسم 3 </string>
+     
+       
+    <string name="action_example"> مثال على الإجراء </string>
+     
+       
+    <string name="error_max_images"> يُسمح بإضافة 5 صور كحد أقصى لمهمة واحدة </string>
+       
+    <string name="password_mismatch"> كلمات المرور غير متطابقة </string>
+       
+    <string name="error_empty_reason"> الرجاء إدخال السبب </string>
+       
+    <string name="error_email"> الرجاء إدخال اسم مستخدم صالح </string>
+       
+    <string name="error_url"> الرجاء إدخال عنوان URL صالح </string>
+       
+    <string name="error_email_id"> الرجاء إدخال معرف بريد إلكتروني صالح </string>
+       
+    <string name="error_password"> الرجاء إدخال كلمة مرور صالحة </string>
+       
+    <string name="error_passowrd_pattern"> يجب أن تحتوي كلمة المرور على 6 أحرف أو أكثر مع حرف واحد كبير على الأقل ورقم &amp;؛ رمز </string>
+       
+    <string name="error_confirm"> الرجاء إدخال إعادة كتابة كلمة المرور </string>
+       
+    <string name="error_confirm_mismatch"> إعادة كتابة عدم تطابق كلمة المرور الجديدة </string>
+       
+    <string name="error_min_password"> يجب ألا يقل طول كلمة المرور عن 8 أحرف </string>
+       
+    <string name="error_phone"> الرجاء إدخال رقم هاتف محمول مكون من 10 أرقام </string>
+       
+    <string name="error_first_name"> الرجاء إدخال اسم أول صالح </string>
+       
+    <string name="error_last_name"> الرجاء إدخال اسم أخير صالح </string>
+       
+    <string name="error_mobile"> الرجاء إدخال رقم هاتف محمول صالح </string>
+       
+    <string name="error_name"> الرجاء إدخال الاسم </string>
+       
+    <string name="error_token"> الرجاء إدخال الرمز المميز </string>
+       
+    <string name="error_mismatch_token"> الرجاء إدخال رمز صالح </string>
+       
+    <string name="error_location"> الرجاء إدخال موقع صالح </string>
+       
+    <string name="error_bank_name"> الرجاء إدخال اسم البنك </string>
+       
+    <string name="error_bank_no"> الرجاء إدخال رقم الحساب </string>
+       
+    <string name="error_ifsc_code"> الرجاء إدخال كود ifsc </string>
+       
+    <string name="error_branch_name"> الرجاء إدخال اسم الفرع </string>
+       
+    <string name="error_user_name"> الرجاء إدخال اسم صاحب الحساب </string>
+       
+    <string name="error_response"> تعطل الخادم. يرجى المحاولة مرة أخرى </string>
+       
+    <string name="error_block_user"> تم حظر حسابك بواسطة المسؤول! يرجى الاتصال بالمسؤول </string>
+       
+    <string name="error_exist_mobile"> عذراً رقم الجوال موجود بالفعل </string>
+       
+    <string name="error_img_size"> يرجى تحديد صورة أقل من 5 ميغابايت </string>
+       
+    <string name="success_password"> تم تغيير كلمة المرور بنجاح! </string>
+       
+    <string name="password_fail"> فشل نسيت كلمة المرور </string>
+       
+    <string name="verify_pass"> تم إرسال الرمز إلى </string>
+       
+    <string name="via"> عبر </string>
+       
+    <string name="empty_password"> يجب ألا تكون كلمة المرور فارغة </string>
+       
+    <string name="driver_update"> تم تحديث ملف تعريف برنامج التشغيل بنجاح </string>
+       
+    <string name="password_length"> يجب أن تكون كلمة المرور أكثر من 6 أحرف </string>
+       
+    <string name="error_verification_code"> يجب ألا يكون رمز التحقق فارغًا </string>
+       
+    <string name="error_signin"> فشل تسجيل الدخول </string>
+       
+    <string name="invalid_verification"> تم توفير رمز تحقق غير صالح ، يرجى المحاولة مرة أخرى. </string>
+       
+    <string name="invalid_verification_english"> تم توفير رمز تحقق غير صالح ، يرجى المحاولة مرة أخرى. </string>
+       
+    <string name="onfailure_api"> يبدو أن الاتصال بالإنترنت ضعيف. يرجى المحاولة مرة أخرى! </string>
+     
+       
+    <string name="error_old_password"> الرجاء إدخال كلمة مرور حالية صالحة </string>
+        <string name="password_fail_change"> فشل تغيير كلمة المرور </string> 
+     
+       
+    <string name="cancel_txt"> إلغاء </string>
+       
+    <string name="start_txt"> ابدأ </string>
+       
+    <string name="date_txt"> التاريخ </string>
+       
+    <string name="time_txt"> الوقت </string>
+       
+    <string name="distance_txt"> المسافة </string>
+       
+    <string name="status_txt"> الحالة </string>
+       
+    <string name="apply_txt"> تطبيق </string>
+       
+    <string name="clear_txt"> مسح </string>
+       
+    <string name="update_txt"> تحديث </string>
+     
+
+       
+    <string name="login_header_txt"> تسجيل الدخول للمتابعة </string>
+       
+    <string name="email_txt"> البريد الإلكتروني </string>
+       
+    <string name="password_txt"> كلمة المرور </string>
+       
+    <string name="forgot_password_txt"> هل نسيت كلمة المرور؟ </string>
+       
+    <string name="login_txt"> تسجيل الدخول </string>
+     
+
+       
+    <string name="forgot_password_header_txt"> نسيت كلمة المرور </string>
+       
+    <string name="send_btn_txt"> إرسال </string>
+       
+    <string name="success_txt"> ناجح </string>
+       
+    <string name="failure_txt"> فشل </string>
+     
+     
+       
+    <string name="signature_update"> تم تحديث التوقيع بنجاح </string>
+       
+    <string name="signture_added"> تمت إضافة التوقيع بنجاح </string>
+       
+    <string name="add_notes_success"> تمت إضافة الملاحظة بنجاح </string>
+       
+    <string name="update_note"> تم تحديث الملاحظة بنجاح </string>
+       
+    <string name="delete_note"> تم حذف الملاحظة بنجاح </string>
+       
+    <string name="bar_code_success"> تمت إضافة الرمز الشريطي بنجاح </string>
+     
+       
+    <string name="profile_img_success"> تم تحديث صورة الملف الشخصي بنجاح. </string>
+       
+    <string name="task_accept_error"> عذرًا! تم قبول هذه المهمة بالفعل من قبل سائق آخر </string>
+     
+       
+    <string name="nav_task"> المهام </string>
+       
+    <string name="nav_route"> المسار </string>
+       
+    <string name="nav_earnings"> الأرباح </string>
+       
+    <string name="nav_analytics"> تحليلات </string>
+       
+    <string name="nav_profile"> الملف الشخصي </string>
+       
+    <string name="my_profile"> ملفي الشخصي </string>
+       
+    <string name="nav_password"> تغيير كلمة المرور </string>
+       
+    <string name="nav_notifications"> الإخطارات </string>
+       
+    <string name="nav_settings"> الإعدادات </string>
+       
+    <string name="nav_help"> تعليمات </string>
+       
+    <string name="nav_logout"> تسجيل الخروج </string>
+       
+    <string name="nav_online"> أثناء العمل </string>
+       
+    <string name="nav_offline"> خارج الخدمة </string>
+     
+       
+    <string name="add_note_txt"> إضافة ملاحظة </string>
+     
+       
+    <string name="add_images_txt"> إضافة الصور </string>
+       
+    <string name="add_signature_txt"> إضافة توقيع </string>
+       
+    <string name="task_id_txt"> معرف المهمة </string>
+       
+    <string name="cancel_header_txt"> أضف سببًا </string>
+     
+     
+       
+    <string name="reason_txt"> السبب </string>
+       
+    <string name="enter_reason"> أدخل السبب </string>
+       
+    <string name="search_txt"> بحث </string>
+     
+       
+    <string name="from_txt"> من </string>
+       
+    <string name="to_txt"> إلى </string>
+       
+    <string name="sort_by_txt"> فرز حسب </string>
+     
+       
+    <string name="profile_header_txt"> ملفي الشخصي </string>
+     
+       
+    <string name="naem_txt"> الاسم </string>
+     
+     
+       
+    <string name="mobile_no_txt"> رقم الجوال </string>
+       
+    <string name="email_id_txt"> معرف البريد الإلكتروني </string>
+       
+    <string name="currrent_password_txt"> كلمة المرور الحالية </string>
+       
+    <string name="new_password_txt"> كلمة مرور جديدة </string>
+     
+
+       
+    <string name="retype_password"> أعد كتابة كلمة المرور </string>
+       
+    <string name="vehicle_type_txt"> نوع المركبة </string>
+       
+    <string name="notifications"> الإخطارات </string>
+
+     
+       
+    <string name="advance_settings"> الإعدادات المتقدمة </string>
+       
+    <string name="ring_tone_txt"> نغمة </string>
+       
+    <string name="vibration_txt"> اهتزاز </string>
+       
+    <string name="repeat_txt"> كرر </string>
+       
+    <string name="langauge_txt"> اللغة </string>
+       
+    <string name="naviagation_txt"> التنقل </string>
+       
+    <string name="map_style_txt"> نمط الخريطة </string>
+       
+    <string name="show_traffic_txt"> إظهار حركة المرور </string>
+       
+    <string name="power_saving_txt"> وضع توفير الطاقة </string>
+       
+    <string name="navigation_helper_txt"> مساعد التنقل </string>
+       
+    <string name="settings_update"> تم تحديث الإعدادات بنجاح </string>
+       
+    <string name="notes_empty"> الرجاء إدخال المدخلات الخاصة بك </string>
+       
+    <string name="empty_tasks"> لا توجد مهام الآن </string>
+       
+    <string name="unble_tasks"> غير قادر على إظهار المهام </string>
+       
+    <string name="unable_load_imgs"> تعذر تحميل الصور بسبب إشارات الإنترنت الضعيفة </string>
+       
+    <string name="password_success"> تم تغيير كلمة المرور الخاصة بك بنجاح </string>
+       
+    <string name="unable_signture"> تعذر حفظ التوقيع </string>
+       
+    <string name="no_signature"> لا يوجد توقيع </string>
+       
+    <string name="signaute_load"> تعذر حفظ التوقيع </string>
+       
+    <string name="type_txt"> اكتب </string>
+       
+    <string name="msg_txt"> رسالة </string>
+     
+       
+    <string name="title_activity_menu"> نشاط القائمة </string>
+       
+    <string name="navigation_drawer_open"> فتح درج التنقل </string>
+       
+    <string name="navigation_drawer_close"> إغلاق درج التنقل </string>
+     
+       
+    <string name="action_settings"> الإعدادات </string>
+       
+    <string name="splash_content"> \ t \ t \ t جسر بين \ n \ t العملاء والوكلاء </string>
+     
+       
+    <string name="login_to_continue"> تسجيل الدخول للمتابعة! </string>
+     
+     
+       
+    <string name="email_mobile"> البريد الإلكتروني </string>
+     
+       
+    <string name="hint_email_mobile"> abcd@nextbrainitech.com </string>
+       
+    <string name="password"> كلمة المرور </string>
+       
+    <string name="hint_pwd"> ******** </string>
+       
+    <string name="forgot_pwd"> هل نسيت كلمة المرور؟ </string>
+       
+    <string name="login"> تسجيل الدخول </string>
+       
+    <string name="confirm"> تأكيد </string>
+       
+    <string name="agent_name"> وليام أدوارد </string>
+     
+       
+    <string name="duty_status_offline"> غير متصل </string>
+       
+    <string name="duty_status_online"> في الخدمة </string>
+       
+    <string name="menu_task"> المهام </string>
+       
+    <string name="menu_route"> المسار </string>
+       
+    <string name="menu_analytics"> التحليلات </string>
+       
+    <string name="menu_profile"> الملف الشخصي </string>
+       
+    <string name="menu_change_pwd"> تغيير كلمة المرور </string>
+       
+    <string name="menu_notifications"> الإخطارات </string>
+       
+    <string name="menu_settings"> الإعدادات </string>
+       
+    <string name="menu_help"> تعليمات </string>
+       
+    <string name="menu_logout"> تسجيل الخروج </string>
+       
+    <string name="no_geocoder_available"> لا يوجد مشفر جغرافي متاح </string>
+       
+    <string name="fetch_address"> عنوان الجلب </string>
+     
+       
+    <string name="address_found"> ​​تم العثور على العنوان </string>
+     
+     
+     
+       
+    <string name="no_address_found"> ​​عذرًا ، لم يتم العثور على عنوان </string>
+       
+    <string name="no_location_data_provided"> لم يتم تقديم بيانات طلب الموقع </string>
+     
+       
+    <string name="service_not_available"> الخدمة غير متاحة </string>
+     
+       
+    <string name="no_service_data"> خدماتنا غير متوفرة حاليًا في هذه المدينة </string>
+       
+    <string name="notify_data"> سنقوم بإخطارك بمجرد بدء التشغيل </string>
+       
+    <string name="invalid_lat_long_used"> خط العرض أو خط الطول المستخدم غير صالح </string>
+       
+    <string name="place_holder_text_cancel_ride"> اكتب سببك هنا ....... </string>
+       
+    <string name="reset_mob_error"> الرجاء إدخال رقم الهاتف المحمول </string>
+       
+    <string name="fav_text"> المفضلة </string>
+       
+    <string name="ok_btn"> موافق </string>
+     
+       
+    <string name="onFailure_msg"> حدث خطأ ما ، يرجى المحاولة مرة أخرى </string>
+       
+    <string name="no_internet_conn_msg_txt"> لا يوجد اتصال بالإنترنت في جهازك. يرجى تمكين </string>
+     
+       
+    <string name="enable_permission"> الرجاء تمكين الإذن </string>
+     
+       
+    <string name="enable_camera_permission"> يرجى تمكين إذن الكاميرا </string>
+     
+       
+    <string name="onDenied"> تم رفض الإذن </string>
+       
+    <string name="cancel_btn"> إلغاء </string>
+       
+    <string name="title_forgot_pass"> نسيت كلمة المرور </string>
+       
+    <string name="title_new_password"> كلمة مرور جديدة </string>
+       
+    <string name="forgot_email_mobile"> البريد الإلكتروني </string>
+     
+         
+    <string name="verification_code"> رمز التحقق </string>
+       
+    <string name="hint_forgot_pass"> abcd@lmn.com </string>
+       
+    <string name="btn_cancel"> إلغاء </string>
+       
+    <string name="btn_send"> إرسال </string>
+       
+    <string name="btn_skip"> تخطي </string>
+       
+    <string name="mandatory_app_update"> لمتابعة خدمات Deliforce. يُرجى تحديث التطبيق الآن </string>
+       
+    <string name="optional_update"> يتوفر تحديث إصدار جديد. الرجاء تحديث التطبيق </string>
+       
+    <string name="route"> المسار </string>
+     
+       
+    <string name="analytics"> التحليلات </string>
+       
+    <string name="profile"> الملف الشخصي </string>
+     
+     
+       
+    <string name="change_password"> تغيير كلمة المرور </string>
+       
+    <string name="settings"> الإعدادات </string>
+       
+    <string name="help"> تعليمات </string>
+       
+    <string name="title_task"> المهام </string>
+       
+    <string name="title_time"> دقائق </string>
+       
+    <string name="task_time"> 07:30 مساءً </string>
+     
+         
+    <string name="task"> - التسليم </string>
+       
+    <string name="task_status"> تم التسليم </string>
+       
+    <string name="cust_name"> اسم العميل </string>
+       
+    <string name="cust_address"> العنوان </string>
+       
+    <string name="task_status_accepted"> مقبول </string>
+       
+    <string name="task_status_assigned"> معين </string>
+       
+    <string name="task_status_started"> تم البدء </string>
+       
+    <string name="task_status_in_progress"> وصلت </string>
+       
+    <string name="task_status_success"> النجاح </string>
+       
+    <string name="task_status_failed"> فشل </string>
+       
+    <string name="task_status_cancelled"> مُلغاة </string>
+       
+    <string name="task_status_deleted"> محذوف </string>
+       
+    <string name="task_status_acknowledge"> إقرار </string>
+       
+    <string name="task_type_pick_up"> - ارفع </string>
+       
+    <string name="pick_up"> ارفع</string>
+       
+    <string name="delivery"> التسليم </string>
+       
+    <string name="task_type_delivery"> - التسليم </string>
+       
+    <string name="task_type_field_work"> - قوة العمل الميداني </string>
+       
+    <string name="field_work"> قوة العمل الميداني </string>
+       
+    <string name="task_type_appointments"> - المواعيد </string>
+       
+    <string name="appointments"> المواعيد </string>
+       
+    <string name="msg_no_tasks"> لا توجد مهمة بعد! \ n اطلب من مديرك تعيين المهمة </string>
+       
+    <string name="task_complete"> تم إكمال المهام </string>
+       
+    <string name="time_on_duty"> وقت العمل </string>
+       
+    <string name="time_task"> الوقت لكل مهمة </string>
+       
+    <string name="distance_task"> المسافة لكل مهمة </string>
+     
+       
+    <string name="stop_task"> وقت التوقف / المهمة </string>
+       
+    <string name="onTime"> عالموعد </string>
+       
+    <string name="delay"> تأخير </string>
+       
+    <string name="delete"> حذف </string>
+       
+    <string name="edit"> تعديل </string>
+       
+    <string name="task_images"> الصور المرجعية </string>
+       
+    <string name="title_task_details"> معرف المهمة - # </string>
+       
+    <string name="task_details_task_time"> 07:30 مساءً </string>
+       
+    <string name="task_details_task_name"> - التسليم </string>
+     
+         
+    <string name="task_details_task_status"> معين </string>
+       
+    <string name="task_details_cust_name"> راج </string>
+       
+    <string name="task_details_cust_address"> وايتفيلد ، بنغالور </string>
+       
+    <string name="task_details_description"> تسمح وحدة الفقرات لمنشئي المحتوى بالاختيار
+        أنواع الفقرات التي يريدون وضعها على الصفحة ، والترتيب الذي يريدون وضعها به.
+        يمكنهم القيام بكل هذا من خلال شاشة تحرير العقدة المألوفة. </string>
+       
+    <string name="task_details_add_notes"> إضافة ملاحظات </string>
+       
+    <string name="task_details_add_imgs"> إضافة صور </string>
+       
+    <string name="task_details_add_sign"> إضافة إشارة </string>
+     
+       
+    <string name="task_details_add_bar_code"> إضافة رمز شريطي </string>
+       
+    <string name="task_details_edit_sign"> تحرير التوقيع </string>
+       
+    <string name="task_details_add_cancel_reason_title"> إضافة سبب </string>
+       
+    <string name="task_details_add_cancel_reason_hint"> السبب </string>
+       
+    <string name="start"> ابدأ </string>
+       
+    <string name="success"> ناجح </string>
+       
+    <string name="failed_txt"> فشل </string>
+       
+    <string name="acknowledge"> إقرار </string>
+       
+    <string name="accept"> قبول </string>
+       
+    <string name="decline"> رفض </string>
+       
+    <string name="arrived"> وصلت </string>
+       
+    <string name="error_bar_code">  الرجاء إضافة الباركود&#8226; </string>
+       
+    <string name="error_actual_customer">  الرجاء إضافة العميل الفعلي &#8226;</string>
+     
+       
+    <string name="update_bar_code"> تحديث الرمز الشريطي </string>
+       
+    <string name="title_activity_search_task"> نشاط مهمة البحث </string>
+       
+    <string name="title_task_filter"> عامل التصفية </string>
+       
+    <string name="hint_search"> بحث </string>
+     
+       
+    <string name="title_date"> التاريخ </string>
+       
+    <string name="search_task_date_from"> من </string>
+       
+    <string name="search_task_date_to"> إلى </string>
+       
+    <string name="search_task_status"> الحالة </string>
+       
+    <string name="search_task_status_all"> الكل </string>
+       
+    <string name="search_task_status_accepted"> مقبول </string>
+       
+    <string name="search_task_status_started"> بدأ </string>
+       
+    <string name="search_task_status_arrived"> وصلت </string>
+       
+    <string name="search_task_status_successful"> ناجح </string>
+       
+    <string name="search_task_status_failed"> فشل </string>
+       
+    <string name="search_task_status_cancelled"> مُلغى </string>
+       
+    <string name="search_task_status_declined"> مرفوضة </string>
+       
+    <string name="search_task_sort_by"> فرز حسب </string>
+       
+    <string name="search_task_sort_by_time"> الوقت </string>
+       
+    <string name="search_task_sort_by_distance"> المسافة </string>
+       
+    <string name="action_clear"> مسح </string>
+       
+    <string name="action_apply"> تطبيق </string>
+       
+    <string name="task_update_logout"> عذرًا ، لا يمكنك تسجيل الخروج الآن ، يرجى إكمال المهمة الموجودة </string>
+       
+    <string name="idle"> خامل </string>
+       
+    <string name="task_progress"> عذرًا ، لا يمكنك الانتقال إلى وضع عدم الاتصال بسبب المهمة قيد التقدم </string>
+     
+       
+    <string name="title_add_notes"> ملاحظات </string>
+     
+       
+    <string name="hint_add_new_note"> إضافة ملاحظة جديدة </string>
+       
+       
+    <string name="hint_view_note"> عرض الملاحظات </string>
+       
+    <string name="hint_view_signature"> عرض العلامة </string>
+       
+    <string name="hint_images"> الصور </string>
+       
+    <string name="title_add_images"> حدد الصور </string>
+       
+    <string name="title_add_sign"> الرجاء التوقيع </string>
+       
+    <string name="action_reset"> إعادة تعيين </string>
+     
+       
+    <string name="msg_sign_captured"> تم التقاط التسجيل وحفظه </string>
+     
+       
+    <string name="title_routes"> المسار </string>
+       
+    <string name="profile_act_title"> ملفي الشخصي </string>
+       
+    <string name="agent_name_title"> الاسم الأول </string>
+     
+       
+    <string name="agent_last_hint"> أدخل الاسم الأخير </string>
+     
+       
+    <string name="agent_last_name_title"> اسم العائلة </string>
+       
+    <string name="hint_agent_name"> رجاء </string>
+       
+    <string name="mob_num"> رقم الجوال </string>
+       
+    <string name="hint_mob_num"> + 919876543210 </string>
+       
+    <string name="email_id_title"> معرف البريد الإلكتروني </string>
+       
+    <string name="hint_email_id"> raja.i@nextbrainitech.in </string>
+       
+    <string name="btn_update"> تحديث </string>
+       
+    <string name="btn_add"> إضافة </string>
+       
+    <string name="signature"> التوقيع </string>
+       
+    <string name="change_pwd_act_title"> تغيير كلمة المرور </string>
+       
+    <string name="current_pwd"> كلمة المرور الحالية </string>
+     
+       
+    <string name="new_pwd"> كلمة مرور جديدة </string>
+       
+    <string name="retype_pwd"> أعد كتابة كلمة المرور </string>
+       
+    <string name="help_act_title"> مساعدة </string>
+       
+    <string name="help_type"> اكتب </string>
+       
+    <string name="help_msg"> رسالة </string>
+     
+       
+    <string name="title_activity_settings"> الإعدادات </string>
+       
+    <string name="title_tasks_location"> المهام </string>
+       
+    <string name="tasks_on"> المهام في </string>
+       
+    <string name="title_notifications"> الإخطارات </string>
+     
+       
+    <string name="no_notification_msg"> لا توجد إخطارات بعد! </string>
+       
+    <string name="title_analytics"> Analytics </string>
+     
+       
+    <string name="settings_title_vehicle_type"> نوع السيارة </string>
+       
+    <string name="settings_title_notification"> الإخطارات </string>
+     
+       
+    <string name="settings_title_advanced_settings"> إعدادات متقدمة </string>
+       
+       
+    <string name="settings_choose_vehicle_type"> اختر نوع السيارة </string>
+       
+    <string name="vehicle_type_walking"> المشي </string>
+       
+    <string name="vehicle_type_cycle"> الدراجة </string>
+       
+    <string name="vehicle_type_bike"> الدراجة </string>
+       
+    <string name="vehicle_type_truck"> شاحنة </string>
+       
+    <string name="vehicle_type_car"> السيارة </string>
+       
+    <string name="vehicle_type_scooter"> سكوتر </string>
+       
+    <string name="vibration_alert_long"> طويل </string>
+       
+    <string name="vibration_alert_system"> النظام </string>
+       
+    <string name="settings_ring_ringtone"> نغمة </string>
+       
+    <string name="settings_ring_vibration"> اهتزاز </string>
+       
+    <string name="settings_ring_title_vibration"> اختر نمط الاهتزاز </string>
+       
+    <string name="settings_ring_title_app_lang"> اختر لغة التطبيق </string>
+       
+    <string name="settings_map_style_title"> اختر نمط الخريطة </string>
+       
+    <string name="settings_ring_default"> افتراضي </string>
+       
+    <string name="settings_ring_repeat"> كرر </string>
+       
+    <string name="settings_language"> اللغة </string>
+       
+    <string name="settings_language_eng"> الإنجليزية </string>
+       
+    <string name="settings_language_spanish"> الإسبانية </string>
+       
+    <string name="settings_language_french"> الفرنسية </string>
+       
+    <string name="settings_language_portuguese"> البرتغالية </string>
+       
+    <string name="settings_language_malay"> الملايو </string>
+
+    <string name="settings_language_arabic"> عربى </string>
+     
+       
+    <string name="settings_map_style_normal"> عادي </string>
+       
+    <string name="settings_map_style_night"> الوضع الليلي </string>
+       
+    <string name="settings_navigation"> التنقل </string>
+       
+    <string name="settings_map_style"> نمط الخريطة </string>
+       
+    <string name="settings_show_traffic"> إظهار حركة المرور </string>
+     
+       
+    <string name="settings_power_saving_mode"> وضع توفير الطاقة </string>
+       
+    <string name="settings_navigation_helper"> مساعد التنقل </string>
+       
+    <string name="settings_action_apply"> تطبيق </string>
+       
+    <string name="settings_action_clear"> مسح </string>
+       
+    <string name="title_activity_fullscreen"> نشاط ملء الشاشة </string>
+       
+    <string name="google_map_api_key"> AIzaSyAf6RUwYpLJM282nAuAXd9duLBpt6-QoNc </string>
+       
+    <string name="google_maps_api_key"> AIzaSyBZG8PISLCb2-lEZFyjZlldPv9f-RjbGWM </string>
+       
+    <string name="google_places_api_key"> AIzaSyBk1wH9nqOv55r1Svwan5v21b19Nk7BAW8 </string>
+     
+     
+       
+    <string name="title_activity_naviagation"> المهام </string>
+       
+    <string name="nav_header_title"> ستوديو الاندرويد </string>
+       
+    <string name="nav_header_subtitle"> android.studio@android.com </string>
+       
+    <string name="nav_header_desc"> رأس التنقل </string>
+       
+    <string name="font_arial"> الخط arial</string>
+       
+    <string name="Hours"> Hours </string>
+       
+    <string name="default_notification_channel_id" translatable="false"> fcm_default </string>
+     
+       
+    <string name="notification_content"> 03 يوليو ، 06 مساءً - بيك أب \ t 50 كم بعيدًا \ nAWS ، بيون ماهارشترا ، الهند </string>
+     
+       
+    <string name="notifin_accept"> قبول </string>
+       
+    <string name="notifin_decline"> رفض </string>
+     
+       
+    <string name="notifin_ack"> إقرار </string>
+       
+    <string name="notifin_new_task_title"> مهمة جديدة واحدة </string>
+       
+    <string name="imagepicker_multiselect_done"> تم </string>
+       
+    <string name="imagepicker_multiselect_not_enough_singular"> عليك تحديد صورة أخرى واحدة </string>
+       
+    <string name="imagepicker_multiselect_not_enough_plural" formatted="false"> عليك تحديد٪ d صور أخرى </string>
+       
+       
+    <string name="imagepicker_multiselect_enough_singular"> لقد حددت صورة واحدة </string>
+       
+    <string name="imagepicker_multiselect_enough_plural" formatted="false"> لقد حددت٪ d صورة </string>
+       
+    <string name="imagepicker_multiselect_overselect" formatted="false"> لا يمكنك تحديد أكثر من٪ d صورة </string>
+       
+    <string name="Task"> معرف المهمة - # </string>
+       
+    <string name="update_signature_header"> الرجاء إضافة إشارة </string>
+       
+    <string name="update_sign"> يرجى تحديث التوقيع </string>
+     
+       
+    <string name="add_images"> الرجاء إضافة الصور&#8226; </string>
+     
+     
+     
+       
+    <string name="add_notes">  الرجاء إضافة ملاحظات &#8226;</string>
+       
+    <string name="add_signature">  الرجاء إضافة التوقيع&#8226; </string>
+       
+    <string name="alert"> تنبيه! </string>
+       
+    <string name="driver_offline"> يرجى التبديل إلى واجب لمتابعة المهمة </string>
+       
+    <string name="invalid_verification_spanish"> تم تقديم رمز تحقق غير صالح ، يرجى المحاولة مرة أخرى. </string>
+       
+    <string name="app_main_screen"> تسجيل الدخول </string>
+     
+       
+    <string name="app_main_screen_title"> هوية التصفح المتخفي </string>
+     
+       
+       
+    <string name="app_main_desc"> نموذج للتطبيق لعرض Cognito Identity و SDK لنظام Android. </string>
+     
+     
+       
+    <string name="nav_drawer_open"> فتح درج التنقل </string>
+       
+    <string name="nav_drawer_close"> إغلاق درج التنقل </string>
+       
+    <string name="title_activity_user"> UserActivity </string>
+       
+    <string name="Username"> اسم المستخدم </string>
+       
+    <string name="Password"> كلمة المرور </string>
+       
+    <string name="Menu"> القائمة </string>
+       
+    <string name="pick_MFA"> خيارات MFA </string>
+       
+    <string name="title_activity_about_app"> حول التطبيق </string>
+       
+    <string name="about"> حقوق الطبع والنشر لعام 2017 لشركة Amazon.com، Inc. أو الشركات التابعة لها. جميع الحقوق محفوظة. \ n \ n مُرخصة بموجب ترخيص برامج Amazon ("الترخيص"). \ n لا يجوز لك استخدام هذا الملف إلا وفقًا للترخيص. \ n توجد نسخة من الترخيص على \ n \ nhttp: // aws.amazon.com/asl/
+\ n \ ولا في ملف "الترخيص" المصاحب لهذا التطبيق. يتم توزيع هذا التطبيق على أساس "كما هو" ، بدون ضمانات أو شروط من أي نوع ، سواء كانت صريحة أو ضمنية. راجع الترخيص لمعرفة الأذونات والقيود التي تحكم اللغة المحددة بموجب الترخيص. </string>
+       
+    <string name="more_info"> هذا نموذج لتطبيق لعرض Cognito Identity و SDK لنظام Android. </string>
+       
+    <string name="title_activity_sign_up_confirm">  تأكيد تسجيل الدخول</string>
+       
+    <string name="title_activity_mfa"> نشاط MFAActivity </string>
+       
+    <string name="title_activity_choose_mfa"> اختر MFA </string>
+       
+    <string name="title_activity_forgot_password"> نسيت نشاط كلمة المرور </string>
+       
+    <string name="title_activity_change_password"> مهمة تغيير  كلمة المرور </string>
+       
+    <string name="title_activity_verify"> تأكيد النشاط </string>
+       
+    <string name="title_activity_add_attribute"> إضافة سمة للنشاط </string>
+       
+    <string name="title_activity_device_settings"> إعدادات الجهاز </string>
+       
+    <string name="title_activity_new_password"> كلمة مرور جديدة </string>
+       
+    <string name="last_week"> الأسبوع الماضي </string>
+       
+    <string name="last_month"> الشهر الماضي </string>
+       
+    <string name="last_year"> العام الماضي </string>
+     
+       
+    <string name="todo"> TODO </string>
+     
+       
+    <string name="hour_of_duty"> ساعة العمل </string>
+       
+    <string name="subject"> أضف موضوعك </string>
+       
+    <string name="help_content"> كيف يمكننا مساعدتك …؟ </string>
+     
+       
+    <string name="user_not_found"> ​​المستخدم غير موجود </string>
+       
+    <string name="invalid_user_found"> اسم مستخدم أو كلمة مرور غير صحيحة. </string>
+     
+       
+    <string name="invalid_current_password"> كلمة المرور الحالية غير صحيحة. </string>
+       
+    <string name="max_attempts"> تم تجاوز حد المحاولة ، يرجى المحاولة بعد قليل. </string>
+     
+         
+    <string name="user_already_logged"> هذا الحساب مسجل الدخول بالفعل على جهاز آخر </string>
+       
+    <string name="no_vechicle_found"> ​​لم يتم العثور على مركبة </string>
+       
+    <string name="gps_disabled"> تحقق من إعدادات GPS. يرجى ضبطه على وضع الدقة العالية للمتابعة </string>
+       
+    <string name="new_job_recivied"> وظيفة جديدة </string>
+       
+    <string name="task_updated"> تحديث المهمة </string>
+       
+    <string name="driver_blocked"> حظر برنامج التشغيل </string>
+       
+    <string name="admin_task"> مهمة المسؤول</string>
+       
+    <string name="login_again"> تسجيل الدخول مرة أخرى </string>
+       
+    <string name="deliforce_running_bg"> يعمل في الخلفية xquara  </string>
+       
+    <string name="choose_date"> اختر التاريخ </string>
+       
+    <string name="choose_date_time"> اختر تاريخ الوقت </string>
+       
+    <string name="title_new_task"> إنشاء مهمة جديدة </string>
+       
+    <string name="order_id"> معرف الطلب </string>
+       
+    <string name="Description"> الوصف </string>
+       
+    <string name="pincode"> الرمز السري </string>
+       
+    <string name="verify_customer_otp"> تحقق من OTP للعميل </string>
+       
+    <string name="distance_text"> المسافة </string>
+       
+    <string name="didn_t_receive_the_otp"> ألم تتلقى كلمة المرور لمرة واحدة؟ </string>
+       
+    <string name="resend_otp"> إعادة إرسال OTP </string>
+       
+    <string name="pickup_address"> عنوان الاستلام </string>
+       
+    <string name="delivery_address"> عنوان التسليم </string>
+       
+    <string name="back_to_task_list"> العودة إلى قائمة المهام </string>
+       
+    <string name="distance_travelled"> المسافة المقطوعة </string>
+       
+    <string name="travel_time"> وقت السفر </string>
+    <string name="from_amp_to_date">من &amp; إلى التاريخ</string>
+       
+    <string name="amount"> المبلغ </string>
+       
+    <string name="total_payout"> إجمالي المدفوعات </string>
+       
+    <string name="no_report_found"> ​​لم يتم العثور على تقرير </string>
+       
+    <string name="no_data_found"> ​​لم يتم العثور على بيانات </string>
+       
+    <string name="title_fare_details"> تفاصيل السعر </string>
+     
+       
+    <string name="title_earnings"> الأرباح </string>
+       
+    <string name="please_select"> الرجاء التحديد </string>
+       
+    <string name="valid_one"> يرجى تحديد خيار صالح </string>
+       
+    <string name="please_enter"> الرجاء إدخال </string>
+       
+    <string name="add_template"> إضافة قالب </string>
+       
+    <string name="template_msg"> هل تريد تكرار هذا النموذج مرة أخرى؟ </string>
+       
+    <string name="go_to_list"> انتقال </string>
+       
+    <string name="reach_customer_loc"> يرجى الوصول إلى موقع العميل وإكمال الرحلة </string>
+       
+    <string name="field_mandatory"> إلزامي الحقول المخصصة </string>
+       
+    <string name="setting_app_version"> إصدار التطبيق </string>
+       
+    <string name="err_arrival_customer_loc"> يرجى الوصول بالقرب من موقع العميل والنقر على وصل </string>
+       
+    <string name="err_destination"> الرجاء إكمال مهمة الالتقاط </string>
+       
+    <string name="exceed_qty_dropdown"> تم تجاوز الكمية! الكمية المتوفرة هي </string>
+       
+    <string name="something_went_wrong"> حدث خطأ ما </string>
+       
+    <string name="logout_alert"> هل أنت متأكد أنك تريد الخروج؟ </string>
+       
+    <string name="customer_not_available"> العميل غير متاح </string>
+     
+       
+    <string name="error_four_max_images"> يُسمح بإضافة 4 صور كحد أقصى لمهمة واحدة </string>
+       
+    <string name="task_details_actual_customer"> العميل الفعلي </string>
+       
+    <string name="task_details_add_actual_customer"> إضافة عميل فعلي </string>
+       
+    <string name="task_details_add_actual_customer_id"> معرف العميل </string>
+       
+    <string name="task_details_add_actual_customer_name"> اسم العميل </string>
+       
+    <string name="error_customer_id"> الرجاء إدخال معرف العميل </string>
+       
+    <string name="error_customer_name"> الرجاء إدخال اسم العميل </string>
+       
+    <string-array name="task_status">
+         
+               
+        <item> معين </item>
+               
+        <item> بدأ </item>
+                <item> ملغى </item> 
+           
+    </string-array>
+       
+    <string-array name="filter_status_array">
+         
+               
+        <item> الكل </item>
+               
+        <item> ناجح </item>
+               
+        <item> مقبول </item>
+               
+        <item> فشل </item>
+               
+        <item> بدأ </item>
+               
+        <item> ملغى </item>
+               
+        <item> وصل </item>
+               
+        <item> مرفوض </item>
+         
+         
+           
+    </string-array>
+       
+    <string-array name="arr_dashboard_menus">
+               
+        <item> المهام </item>
+               
+        <item> المسار </item>
+               
+        <item> التحليلات </item>
+               
+        <item> الملف الشخصي </item>
+               
+        <item> تغيير كلمة المرور </item>
+               
+        <item> إشعارات </item>
+               
+        <item> اعدادات </item>
+               
+        <item> مساعدة </item>
+               
+        <item> خروج </item>
+           
+    </string-array>
+     
+       
+    <string-array name="day_array">
+               
+        <item> اليوم </item>
+               
+        <item> هذا الأسبوع </item>
+               
+        <item> هذا الشهر </item>
+               
+        <item> هذا العام </item>
+           
+    </string-array>
+     
+       
+    <string name="task_details_update_actual_customer"> تحديث العميل الفعلي </string>
+       
+    <string name="capture_location"> موقع الالتقاط </string>
+       
+    <string name="location_captured"> تم التقاط موقع العميل بنجاح! </string>
+       
+    <string name="error_capture_location">  يرجى التقاط موقع العميل &#8226;</string>
+       
+    <string name="settings_ring_title_app_navigation"> اختر التنقل </string>
+       
+    <string name="google_map"> خريطة Google </string>
+       
+    <string name="waze"> Waze </string>
+     
+       
+    <string name="status_two_past"> معين </string>
+       
+    <string name="status_two_future"> تعيين </string>
+       
+    <string name="status_three_past"> مقبول </string>
+       
+    <string name="status_three_future"> قبول </string>
+       
+    <string name="status_four_past"> تم البدء </string>
+       
+    <string name="status_four_future"> ابدأ </string>
+       
+    <string name="status_five_past"> وصلت </string>
+       
+    <string name="status_five_future"> وصول </string>
+       
+    <string name="status_six_past"> ناجح </string>
+       
+    <string name="status_six_future"> النجاح </string>
+       
+    <string name="status_seven_past"> فشل </string>
+       
+    <string name="status_seven_future"> فشل </string>
+       
+    <string name="status_eight_past"> مرفوضة </string>
+       
+    <string name="status_eight_future"> رفض </string>
+       
+    <string name="status_nine_past"> مُلغاة </string>
+       
+    <string name="status_nine_future"> إلغاء </string>
+       
+    <string name="status_ten_past"> تم الإقرار به </string>
+       
+    <string name="status_ten_future"> إقرار </string>
+       
+    <string name="status_eleven_past"> العميل غير متوفر </string>
+       
+    <string name="status_eleven_future"> العميل غير متوفر </string>
+       
+    <string name="you_are_in_online"> أنت متصل بالإنترنت </string>
+       
+    <string name="other"> أخرى </string>
+       
+    <string name="invalid_barcode"> رمز شريطي غير صالح </string>
+       
+    <string name="enter_universal_product_code"> أدخل رمز المنتج العالمي </string>
+       
+    <string name="universal_product_code"> رمز المنتج العالمي </string>
+       
+    <string name="err_upc"> أدخل رمز المنتج العام </string>
+       
+    <string name="task_created"> تم إنشاء المهمة بنجاح </string>
+       
+    <string name="create"> إنشاء </string>
+       
+    <string name="tips"> نصائح </string>
+     
+       
+    <string name="base_fare"> السعر الأساسي </string>
+       
+    <string name="duration_fare"> أجرة المدة </string>
+       
+    <string name="distance_fare"> أجرة المسافة </string>
+       
+    <string name="deduction"> الخصم </string>
+       
+    <string name="earnings_details"> تفاصيل الأرباح </string>
+</resources>

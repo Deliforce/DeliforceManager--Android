@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_medium"
+    android:layout_marginTop="@dimen/margin_x_small"
+    android:layout_marginRight="@dimen/margin_medium"
+    android:layout_marginBottom="@dimen/margin_x_small"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ll_task_list_view"
+            android:duplicateParentState="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="9.8"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/start_view"
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:orientation="horizontal"
+                android:duplicateParentState="true"
+                android:padding="@dimen/large_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:duplicateParentState="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_task_time"
+                            android:duplicateParentState="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/normal_font"
+                            android:text="@string/task_time"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:id="@+id/tv_task_name"
+                            android:layout_width="wrap_content"
+                            android:duplicateParentState="true"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:layout_toEndOf="@+id/tv_task_time"
+                            android:fontFamily="@font/normal_font"
+                            android:text="@string/task"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:id="@+id/tv_task_status"
+                            android:duplicateParentState="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:fontFamily="@font/normal_font"
+                            android:textSize="@dimen/_13sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:duplicateParentState="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_cust_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:duplicateParentState="true"
+                            android:layout_marginTop="@dimen/lowest_margin"
+                            android:background="@null"
+                            android:drawableStart="@drawable/user_resize"
+                            android:fontFamily="@font/normal_font"
+                            android:gravity="start|center"
+                            android:inputType="textCapWords"
+                            android:padding="@dimen/small_margin"
+                            android:textSize="@dimen/text_caption_small" />
+
+                        <TextView
+                            android:id="@+id/order_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:drawableStart="@drawable/order_id_resize"
+                            android:drawablePadding="@dimen/LoadingDots_dots_space_default"
+                            android:fontFamily="@font/normal_font"
+                            android:gravity="start|center"
+                            android:duplicateParentState="true"
+                            android:inputType="textCapWords"
+                            android:padding="@dimen/small_margin"
+                            android:textSize="@dimen/text_caption_small" />
+
+                        <TextView
+                            android:id="@+id/tv_cust_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:duplicateParentState="true"
+                            android:layout_gravity="start|center"
+                            android:background="@null"
+                            android:drawableStart="@drawable/location_resize"
+                            android:fontFamily="@font/normal_font"
+                            android:gravity="start|center"
+                            android:inputType="textCapWords"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_margin"
+                            android:singleLine="true"
+                            android:text="shop no 2  3 DSR Atrium ,ECC Road,Near GP TechPark\n Whitefield,Bengaluru,karnataka 566067"
+                            android:textSize="@dimen/text_caption_small" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gray_arrow" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

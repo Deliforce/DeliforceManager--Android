@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_snackbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDarkGray"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/message_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/normal_font"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorTaskCancelled" />
+
+
+</LinearLayout>

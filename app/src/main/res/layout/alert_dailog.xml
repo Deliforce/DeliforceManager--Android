@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/large_margin"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/shadow"
+        android:gravity="center"
+        android:padding="@dimen/large_margin"
+        android:text="@string/alert"
+        android:fontFamily="@font/normal_font"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_16sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/notes_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:text="@string/add_notes"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/image_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:text="@string/add_images"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/signature_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:text="@string/add_signature"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/bar_code_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:text="@string/error_bar_code"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/actual_customer_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:text="@string/error_actual_customer"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/is_capture_location_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:text="@string/error_capture_location"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/blocked_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:paddingTop="@dimen/large_margin"
+            android:text="@string/error_block_user"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/padding_large"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_update"
+                style="@style/TextLowerCase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorDarkGray"
+                android:fontFamily="@font/normal_font"
+                android:gravity="center"
+                android:text="@string/ok_btn"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

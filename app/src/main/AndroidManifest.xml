@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.deliforcemanager">
+
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+    <!--<uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        tools:node="remove" />-->
+
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="com.app.deliforce.permission.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.app.deliforcemanager.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.app.deliforce.permission.C2D_MESSAGE" />
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network"
+        android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps"
+        android:required="false"/>
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name="com.app.deliforcemanager.AppController.DeliForce"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/file_paths"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="false"
+        tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity"
+        tools:replace="android:allowBackup">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"
+            tools:ignore="WrongManifestParent" />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.deliforcemanager.Activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true"
+            tools:ignore="InnerclassSeparator" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <!-- Notification service -->
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_ic" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+
+
+        <service
+            android:name="com.app.deliforcemanager.FCM.MyFirebaseMessagingService"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.app.deliforcemanager.LocalizationActivity.LocalizationActivity"
+            android:exported="true"/>
+
+
+        <activity
+            android:name="com.app.deliforcemanager.LocalizationActivity.BlankDummyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.app.deliforcemanager.Activities.NavigationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"
+            tools:ignore="InnerclassSeparator" />
+<!--        <activity-->
+<!--            android:name="com.app.deliforcemanager.Activities.RouteActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/CustomTheme"-->
+<!--            android:exported="true"-->
+<!--            tools:ignore="InnerclassSeparator" />-->
+
+<!--        <activity-->
+<!--            android:name="com.app.deliforcemanager.Activities.AnalyticsActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/CustomTheme"-->
+<!--            android:exported="true"-->
+<!--            tools:ignore="InnerclassSeparator" />-->
+        <activity
+            android:name="com.app.deliforcemanager.Activities.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"
+            android:exported="true"
+            tools:ignore="InnerclassSeparator" />
+
+<!--        <activity-->
+<!--            android:name="com.app.deliforcemanager.Activities.ChangePasswordActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/CustomTheme"-->
+<!--            android:exported="true"-->
+<!--            tools:ignore="InnerclassSeparator" />-->
+
+<!--        <activity-->
+<!--            android:name="com.app.deliforcemanager.Activities.SettingsActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/CustomTheme"-->
+<!--            android:exported="true"-->
+<!--            tools:ignore="InnerclassSeparator" />-->
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.TaskDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"
+            android:exported="true"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.MapTaskActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme"
+            android:exported="true"
+            tools:ignore="InnerclassSeparator" />
+
+        <!--<service
+            android:name=".Services.GoogleMapService"
+            android:enabled="true" />-->
+        <!--<service
+            android:name=".Services.LiveTrackingService"
+            android:enabled="true" />-->
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.SignatureActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+        <service
+            android:exported="false"
+            android:name="com.app.deliforcemanager.Services.HUD"  />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.FilterActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.deliforcemanager.Activities.NewTaskActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            tools:node="merge"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/external_files" />
+        </provider>
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.NotesActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="com.app.deliforcemanager.BaseActivity.BaseDrawerActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+        <receiver
+            android:name="com.app.deliforcemanager.Services.SensorRestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="RestartServiceWhenStopped"
+            tools:node="merge"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="willneverkillme" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:exported="true"
+            android:name="com.app.deliforcemanager.Services.PushNotificationService"  />
+
+<!--        <service-->
+<!--            android:name="com.app.deliforcemanager.Services.IdleService"-->
+<!--            android:exported="false"-->
+<!--            android:enabled="true" />-->
+
+<!--        <service-->
+<!--            android:name="com.app.deliforcemanager.Services.IdleUpdatedService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false"-->
+<!--            android:foregroundServiceType="location" />-->
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.NewPasswordActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+
+
+
+        <activity
+            android:exported="true"
+            android:name="com.app.deliforcemanager.BaseActivity.BaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme" />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.BarCodeActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.CreateNewTaskActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+        <activity
+            android:name="com.app.deliforcemanager.Activities.TripFareDetailsActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/CustomTheme" />
+
+<!--        <activity-->
+<!--            android:name="com.app.deliforcemanager.Activities.EarningsChartActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/CustomTheme" />-->
+
+<!--        <activity-->
+<!--            android:name="com.app.deliforcemanager.Activities.EarningsDetailsActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/CustomTheme" />-->
+
+
+        <activity
+            android:name="zendesk.support.request.RequestActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"/>
+
+        <activity
+            android:name="zendesk.support.guide.ViewArticleActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/zs_view_article_loading_title"
+            android:exported="true"/>
+        <activity
+            android:name="zendesk.support.guide.HelpCenterActivity"
+            android:label="@string/support_activity_title"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"/>
+        <activity
+            android:name="zendesk.support.requestlist.RequestListActivity"
+            android:label="@string/request_list_activity_title"
+            android:exported="true"/>
+
+        <receiver
+            android:name="zendesk.support.DeepLinkingBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="zendesk.support" />
+            </intent-filter>
+        </receiver>
+
+
+
+        <service
+            android:exported="false"
+            android:name="com.app.deliforcemanager.Services.MusicService" />
+
+
+        <service
+            android:name="com.zopim.android.sdk.widget.ChatWidgetService"
+            android:exported="false" />
+
+        <!-- Activities -->
+        <activity
+            android:exported="true"
+            android:name="com.zopim.android.sdk.prechat.ZopimChatActivity"
+            android:label="@string/chat_activity_title"
+            android:theme="@style/ZopimChatTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" >
+            <intent-filter android:priority="-1000" >
+                <action android:name="zopim.action.RESUME_CHAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.zopim.android.sdk.chatlog.ZopimCommentActivity"
+            android:label="@string/rate_this_chat_leave_a_comment_title"
+            android:theme="@style/ZopimChatTheme"
+            android:windowSoftInputMode="stateUnspecified|adjustResize" />
+
+
+        <activity
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_force_change_password"
+            android:name="com.amazonaws.mobile.auth.userpools.ForceChangePasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_forgot_password"
+            android:name="com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_sign_up"
+            android:name="com.amazonaws.mobile.auth.userpools.SignUpActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_mfa"
+            android:name="com.amazonaws.mobile.auth.userpools.MFAActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_sign_up_confirm"
+            android:name="com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:exported="false"
+            android:name="com.glympse.android.push.FCMListenerService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+      <!--  <activity android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+            android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:parentActivityName=".Activities.NavigationActivity"
+            android:theme="@style/ApplozicTheme"
+            android:launchMode="singleTask"
+            tools:node="replace">
+            &lt;!&ndash; Parent activity meta-data to support API level 7+ &ndash;&gt;
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.NavigationActivity" />
+        </activity>-->
+       <!-- <meta-data
+            android:name="com.applozic.application.key"
+            android:value="@string/appLogicId" />-->
+
+    <!--    <meta-data android:name="com.applozic.mobicomkit.notification.smallIcon"
+            android:resource="@mipmap/ic_launcher" />--> <!-- Replace this with a valid resource name for Launcher white Icon -->
+
+        <meta-data android:name="main_folder_name"
+            android:value="@string/app_name"
+            tools:node="replace"/> <!-- If you do not set this tag then by default the attachment folder name would be Applozic. Thats why we are using replace node-->
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />  <!--Replace with your geo api key from google developer console  -->
+        <!-- For testing purpose use AIzaSyAYB1vPc4cpn_FJv68eS_ZGe1UasBNwxLI
+        To disable the location sharing via map add this line ApplozicSetting.getInstance(context).disableLocationSharingViaMap(); in onSuccess of Applozic UserLoginTask -->
+
+<!--        <meta-data-->
+<!--            android:name="activity.open.on.notification"-->
+<!--            android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" /> &lt;!&ndash; NOTE : Do NOT change this value &ndash;&gt;-->
+
+        <meta-data android:name="com.package.name"
+            android:value="${applicationId}" />
+        <!-- NOTE: Do NOT change this, it should remain same i.e 'com.package.name' -->
+    </application>
+
+</manifest>

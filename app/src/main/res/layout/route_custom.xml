@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_margin="@dimen/small_margin"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_cust_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/small_margin">
+
+
+            <ImageView
+                android:id="@+id/ic_inform"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:background="@drawable/ic_information" />
+
+            <RelativeLayout
+                android:id="@+id/layout_task_time_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin">
+
+                <TextView
+                    android:id="@+id/tv_task_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/normal_font"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_caption_small" />
+
+                <TextView
+                    android:id="@+id/tv_task_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_toEndOf="@+id/tv_task_time"
+                    android:fontFamily="@font/normal_font"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_caption_small" />
+
+                <TextView
+                    android:id="@+id/tv_task_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_toEndOf="@+id/tv_task_name"
+                    android:fontFamily="@font/normal_font"
+                    android:textSize="@dimen/text_caption_small" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/layout_cust_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_task_time_info"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginTop="@dimen/margin_medium">
+
+                <ImageView
+                    android:id="@+id/img_cust_avatar"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignStart="@+id/tv_task_time"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/account_gray"
+                    tools:ignore="NotSibling" />
+
+                <TextView
+                    android:id="@+id/tv_cust_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/img_cust_avatar"
+                    android:fontFamily="@font/normal_font"
+                    android:inputType="textCapWords"
+                    android:textSize="@dimen/text_caption_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_cust_name"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginTop="@dimen/margin_medium">
+
+                <ImageView
+                    android:id="@+id/img_cust_location"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/tv_cust_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/img_cust_location"
+                    android:fontFamily="@font/normal_font"
+                    android:maxLines="1"
+                    android:textSize="@dimen/text_caption_small" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

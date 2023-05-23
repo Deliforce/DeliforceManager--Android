@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "227964719259",
+    "project_id": "meatmart-67d29",
+    "storage_bucket": "meatmart-67d29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227964719259:android:27801bcf9f4f3b2196b63e",
+        "android_client_info": {
+          "package_name": "com.app.deliforcemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227964719259-s8te6troph4unrnmtmc04a0oi47sjuc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-sDnz-oB9dkUQex9vmg-hEYeHVG8W3qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227964719259-s8te6troph4unrnmtmc04a0oi47sjuc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">xQuara Agent</string>
+    <string name="deliforce_running_bg">عامل xQuara يعمل في الخلفية</string>
+    <string name="mandatory_app_update">لمتابعة وكيل xQuara ، يُرجى تحديث التطبيق الآن</string>
+</resources>

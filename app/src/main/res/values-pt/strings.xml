@@ -1,0 +1,742 @@
+<resources>
+    <string name="app_name">Agente Deliforce</string>
+    <string name="appLogicId">deliforce3edbee8c0f3cdffa7cda0ee152ca81d2e</string>
+
+    <!--Common Alert Dialog-->
+
+    <string name="submit_txt">Enviar</string>
+
+    <string name="content_desc">isso é imageview</string>
+    <string name="alert_dialog_ok_btn_txt">Está bem</string>
+    <string name="alert_dialog_cancel_btn_txt">Cancelar</string>
+
+    <string name="alert_dialog_dismis_confirm_title_txt">Tem certeza de que deseja descartar?</string>
+    <string name="logoutText">Tem certeza que deseja sair?</string>
+    <string name="website">Local na rede Internet</string>
+    <string name="next">Próximo</string>
+    <string name="ok">Está bem</string>
+    <string name="logout_app">Sair</string>
+
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+
+    <string name="exit_app">Pressione mais uma vez para sair</string>
+    <!---->
+
+    <!--permission helper alert dialog-->
+    <string name="dialog_before_run_title">Permissão necessária</string>
+    <string name="dialog_before_run_message">Aceite a permissão de chamada!</string>
+    <string name="dialog_positive_button">Entendi</string>
+    <string name="dialog_location_before_run_message">Aceite a permissão de localização!</string>
+    <string name="dialog_camera">Por favor, aceite a permissão da câmera!</string>
+    <string name="title_activity_track_driver">Mapa</string>
+    <string name="title_activity_home">Atividade em casa</string>
+    <string name="title_section1">Seção 1</string>
+    <string name="title_section2">Seção 2</string>
+    <string name="title_section3">Seção 3</string>
+
+    <string name="action_example">Ação de exemplo</string>
+
+    <!---->
+
+    <!--Error-->
+
+    <string name="error_max_images">É permitido adicionar no máximo 5 imagens para uma tarefa</string>
+    <string name="password_mismatch">As senhas não correspondem</string>
+    <string name="error_empty_reason">Digite o motivo</string>
+    <string name="error_email">Digite um nome de usuário válido</string>
+    <string name="error_url">Digite um URL válido</string>
+    <string name="error_email_id">Digite o ID de e-mail válido</string>
+    <string name="error_password">Digite uma senha válida</string>
+    <string name="error_passowrd_pattern">A senha deve conter 6 ou mais caracteres com pelo menos uma letra maiúscula, número &amp; símbolo</string>
+    <string name="error_confirm">Digite a senha de redigitação</string>
+    <string name="error_confirm_mismatch">Digite novamente a nova incompatibilidade de senha</string>
+    <string name="error_min_password">O tamanho da senha deve ter no mínimo 8 letras</string>
+    <string name="error_phone">Digite um número de celular de 10 dígitos</string>
+    <string name="error_first_name">Digite o primeiro nome válido</string>
+    <string name="error_last_name">Digite o sobrenome válido</string>
+    <string name="error_mobile">Digite um número de celular válido</string>
+    <string name="error_name">Digite o nome</string>
+    <string name="error_token">Digite o token</string>
+    <string name="error_mismatch_token">Digite o token válido</string>
+    <string name="error_location">Digite um local válido</string>
+    <string name="error_bank_name">Digite o nome do banco</string>
+    <string name="error_bank_no">Digite a conta no</string>
+    <string name="error_ifsc_code">Digite o código ifsc</string>
+    <string name="error_branch_name">Digite o nome da agência</string>
+    <string name="error_user_name">Digite o nome do titular da conta</string>
+    <string name="error_response">O servidor caiu. Tente novamente</string>
+    <string name="error_block_user">Sua conta foi bloqueada pelo administrador! Entre em contato com o administrador</string>
+    <string name="error_exist_mobile">Desculpe, já existe um número de celular</string>
+    <string name="error_img_size">Por favor, selecione uma imagem menor que 5 MB</string>
+    <string name="success_password">Senha mudada com sucesso!</string>
+    <string name="password_fail">Esqueceu a senha falhou</string>
+    <string name="verify_pass">O código foi enviado para</string>
+    <string name="via">através da</string>
+    <string name="empty_password">A senha não deve estar vazia</string>
+    <string name="driver_update">Perfil de driver atualizado com sucesso</string>
+    <string name="password_length">A senha deve ter mais de 6 letras</string>
+    <string name="error_verification_code">O código de verificação não deve estar vazio</string>
+    <string name="error_signin">A entrada falhou</string>
+    <string name="invalid_verification">Código de verificação inválido, tente novamente.</string>
+    <string name="invalid_verification_english">Código de verificação inválido, tente novamente.</string>
+    <string name="onfailure_api">Parece pouco acesso à Internet.Tente novamente!</string>
+
+    <string name="error_old_password">Digite a senha atual válida</string>
+    <string name="password_fail_change">Falha na mudança de senha</string>
+    <!--Common Strings-->
+
+
+    <string name="cancel_txt">Cancelar</string>
+    <string name="start_txt">Começar</string>
+    <string name="date_txt">Encontro</string>
+    <string name="time_txt">Tempo</string>
+    <string name="distance_txt">Distância</string>
+    <string name="status_txt">Status</string>
+    <string name="apply_txt">Aplique</string>
+    <string name="clear_txt">Claro</string>
+    <string name="update_txt">Atualizar</string>
+
+
+    <!--Login page-->
+
+    <string name="login_header_txt">Faça login para continuar</string>
+    <string name="email_txt">O email</string>
+    <string name="password_txt">Senha</string>
+    <string name="forgot_password_txt">Esqueceu a senha?</string>
+    <string name="login_txt">Conecte-se</string>
+    <!---->
+
+
+    <!--Forgot password-->
+    <string name="forgot_password_header_txt">Esqueceu a senha</string>
+    <string name="send_btn_txt">Mandar</string>
+    <string name="success_txt">Bem-sucedido</string>
+    <string name="failure_txt">Falhou</string>
+
+
+    <!---->
+
+    <!--Response mesaages-->
+
+    <string name="signature_update">Assinatura atualizada com sucesso</string>
+    <string name="signture_added">Assinatura adicionada com sucesso</string>
+    <string name="add_notes_success">Nota adicionada com sucesso</string>
+    <string name="update_note">Nota atualizada com sucesso</string>
+    <string name="delete_note">Nota excluída com sucesso</string>
+    <string name="bar_code_success">Código de barras adicionado com sucesso</string>
+
+    <string name="profile_img_success">Imagem do perfil atualizada com sucesso.</string>
+    <string name="task_accept_error">Desculpe! Esta tarefa já foi aceita por outro driver</string>
+    <!--Menu items-->
+
+    <string name="nav_task">Tarefas</string>
+    <string name="nav_route">Rota</string>
+    <string name="nav_earnings">Ganhos</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="my_profile">Meu perfil</string>
+    <string name="nav_password">Mudar senha</string>
+    <string name="nav_notifications">Notificações</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_help">Socorro</string>
+    <string name="nav_logout">Sair</string>
+    <string name="nav_online">Em serviço</string>
+    <string name="nav_offline">Fora de serviço</string>
+    <!---->
+
+
+    <!--Task-->
+
+    <string name="add_note_txt">Adicionar nota</string>
+
+    <string name="add_images_txt">Adicionar imagens</string>
+    <string name="add_signature_txt">Adicionar assinatura</string>
+    <string name="task_id_txt">ID da tarefa</string>
+    <string name="cancel_header_txt">Adicione um motivo</string>
+
+    <!---->
+
+
+    <!--Cancel reason-->
+
+    <string name="reason_txt">Razão</string>
+    <string name="enter_reason">Digite o motivo</string>
+    <string name="search_txt">Procurar</string>
+
+    <!---->
+
+
+    <!--Filter-->
+
+    <string name="from_txt">A partir de</string>
+    <string name="to_txt">Para</string>
+    <string name="sort_by_txt">Ordenar por</string>
+
+    <string name="profile_header_txt">Meu perfil</string>
+
+    <string name="naem_txt">Nome</string>
+
+    <!---->
+
+    <!--Profile-->
+
+    <string name="mobile_no_txt">Número de celular</string>
+    <string name="email_id_txt">Identificação do email</string>
+    <string name="currrent_password_txt">Senha atual</string>
+    <string name="new_password_txt">Nova senha</string>
+
+    <!---->
+
+    <!--Change password-->
+    <string name="retype_password">Redigite a senha</string>
+    <string name="vehicle_type_txt">Tipo de Veículo</string>
+    <string name="notifications">Notificações</string>
+
+    <!---->
+
+
+    <!--settings-->
+
+    <string name="advance_settings">Configurações avançadas</string>
+    <string name="ring_tone_txt">toque</string>
+    <string name="vibration_txt">Vibração</string>
+    <string name="repeat_txt">Repetir</string>
+    <string name="langauge_txt">Língua</string>
+    <string name="naviagation_txt">Navegação</string>
+    <string name="map_style_txt">Estilo do mapa</string>
+    <string name="show_traffic_txt">Mostrar tráfego</string>
+    <string name="power_saving_txt">Modo de economia de energia</string>
+    <string name="navigation_helper_txt">Auxiliar de navegação</string>
+    <string name="settings_update">Configurações atualizadas com sucesso</string>
+    <string name="notes_empty">Digite sua entrada</string>
+    <string name="empty_tasks">Não há tarefas agora</string>
+    <string name="unble_tasks">Não foi possível mostrar tarefas</string>
+    <string name="unable_load_imgs">Não foi possível carregar imagens devido a baixos sinais da internet</string>
+    <string name="password_success">Sua senha foi alterada com sucesso</string>
+    <string name="unable_signture">Não foi possível armazenar a assinatura</string>
+    <string name="no_signature">Sem assinatura</string>
+    <string name="signaute_load">Não foi possível armazenar a assinatura</string>
+    <string name="type_txt">Tipo</string>
+    <string name="msg_txt">mensagem</string>
+
+    <!---->
+
+    <!--help-->
+
+    <string name="title_activity_menu">Atividade do menu</string>
+    <string name="navigation_drawer_open">Gaveta de navegação aberta</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="splash_content">\t \t \t Ponte entre os \n \t clientes e agentes</string>
+
+    <string name="login_to_continue">Faça login para continuar!</string>
+
+    <!---->
+
+
+    <!--Splash Screen Specific-->
+    <string name="email_mobile">O email</string>
+
+    <!--Login Screen Specific-->
+    <string name="hint_email_mobile">abcd@nextbrainitech.com</string>
+    <string name="password">Senha</string>
+    <string name="hint_pwd">********</string>
+    <string name="forgot_pwd">Esqueceu a senha?</string>
+    <string name="login">Conecte-se</string>
+    <string name="confirm">Confirme</string>
+    <string name="agent_name">Wlliam Adward</string>
+
+    <string name="duty_status_offline">Desligado</string>
+    <!--Dashboard Specific-->
+    <string name="duty_status_online">Em serviço</string>
+    <string name="menu_task">Tarefas</string>
+    <string name="menu_route">Rota</string>
+    <string name="menu_analytics">Analytics</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_change_pwd">Mudar senha</string>
+    <string name="menu_notifications">Notificações</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_help">Socorro</string>
+    <string name="menu_logout">Sair</string>
+    <string name="no_geocoder_available">Nenhum geocoder disponível</string>
+    <string name="fetch_address">Buscar endereço</string>
+
+    <string name="address_found">Endereço encontrado</string>
+
+
+    <!--Fetch Address-->
+
+    <string name="no_address_found">Desculpe, nenhum endereço encontrado</string>
+    <string name="no_location_data_provided">Nenhum pedido de localização</string>
+
+    <string name="service_not_available">Serviço indisponível</string>
+
+    <string name="no_service_data">Atualmente, nossos serviços não estão disponíveis nesta cidade</string>
+    <string name="notify_data">Atualmente, nossos serviços não estão disponíveis nesta cidade</string>
+    <string name="invalid_lat_long_used">Latitude ou longitude inválida usada</string>
+    <string name="place_holder_text_cancel_ride">Escreva seu motivo Aqui.......</string>
+    <string name="reset_mob_error">Digite o número do celular</string>
+    <string name="fav_text">Favoritos</string>
+    <string name="ok_btn">Está bem</string>
+
+    <string name="onFailure_msg">Alguma coisa deu errado. Por favor tente outra vez</string>
+    <string name="no_internet_conn_msg_txt">Não há conexão com a internet no seu dispositivo.</string>
+
+    <string name="enable_permission">Ative a permissão</string>
+
+    <string name="enable_camera_permission">Ative a permissão da câmera</string>
+
+    <string name="onDenied">Permissão negada</string>
+    <string name="cancel_btn">Cancelar</string>
+    <string name="title_forgot_pass">Esqueceu a senha</string>
+    <string name="title_new_password">Nova senha</string>
+    <string name="forgot_email_mobile">O email</string>
+    <!---->
+
+
+    <!--Forgot Password-->
+    <string name="verification_code">Código de verificação</string>
+    <string name="hint_forgot_pass">abcd@lmn.com</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_send">Mandar</string>
+    <string name="btn_skip">Pular</string>
+    <string name="mandatory_app_update">Para continuar Delifroce services.Please update app now</string>
+    <string name="optional_update">Disponível nova atualização de versão.</string>
+    <string name="route">Rota</string>
+
+    <string name="analytics">Analytics</string>
+    <string name="profile">Perfil</string>
+
+
+    <!--DashBoard-->
+
+    <string name="change_password">Mudar senha</string>
+    <string name="settings">Configurações</string>
+    <string name="help">Socorro</string>
+    <string name="title_task">Tarefas</string>
+    <string name="title_time">Mins</string>
+    <string name="task_time">07:30 PM</string>
+
+
+    <!--Task Specific-->
+    <string name="task">- Entrega</string>
+    <string name="task_status">Entregue</string>
+    <string name="cust_name">Nome do cliente</string>
+    <string name="cust_address">Endereço</string>
+    <string name="task_status_accepted">Aceitaram</string>
+    <string name="task_status_assigned">Atribuído</string>
+    <string name="task_status_started">Começado</string>
+    <string name="task_status_in_progress">Chegou</string>
+    <string name="task_status_success">Sucesso</string>
+    <string name="task_status_failed">Falhou</string>
+    <string name="task_status_cancelled">Cancelado</string>
+    <string name="task_status_deleted">Excluído</string>
+    <string name="task_status_acknowledge">Reconhecer</string>
+    <string name="task_type_pick_up">- Pegar</string>
+    <string name="pick_up">Pegar</string>
+    <string name="delivery">Entrega</string>
+    <string name="task_type_delivery">- Entrega</string>
+    <string name="task_type_field_work">- Força de trabalho de campo</string>
+    <string name="field_work">Força de trabalho de campo</string>
+    <string name="task_type_appointments">- Compromissos</string>
+    <string name="appointments">Compromissos</string>
+    <string name="msg_no_tasks">Nenhuma tarefa ainda! \n Peça ao seu gerente para atribuir a tarefa</string>
+    <string name="task_complete">Tarefas concluídas</string>
+    <string name="time_on_duty">Tempo de serviço</string>
+    <string name="time_task">Tempo por tarefa</string>
+    <string name="distance_task">Distância por tarefa</string>
+
+    <string name="stop_task">Parar tempo / tarefa</string>
+    <string name="onTime">na hora</string>
+    <string name="delay">Demora</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="task_images">Imagens de referência</string>
+    <string name="title_task_details">ID da tarefa - #</string>
+    <string name="task_details_task_time">07:30 PM</string>
+    <string name="task_details_task_name">- Entrega</string>
+
+
+    <!--Task Details Specific-->
+    <string name="task_details_task_status">Atribuído</string>
+    <string name="task_details_cust_name">Raj</string>
+    <string name="task_details_cust_address">Whitefield,Bangalore</string>
+    <string name="task_details_description">O módulo Parágrafos permite que os criadores de conteúdo escolham
+        quais tipos de parágrafos eles querem colocar na página e a ordem em que eles querem colocá-los.
+        Eles podem fazer tudo isso através da tela de edição de nó familiar.</string>
+    <string name="task_details_add_notes">Adicionar notas</string>
+    <string name="task_details_add_imgs">Adicionar imagens</string>
+    <string name="task_details_add_sign">Adicionar sinal</string>
+
+    <string name="task_details_add_bar_code">Adicionar código de barras</string>
+    <string name="task_details_edit_sign">Editar sinal</string>
+    <string name="task_details_add_cancel_reason_title">Adicione um motivo</string>
+    <string name="task_details_add_cancel_reason_hint">Razão</string>
+    <string name="start">Começar</string>
+    <string name="success">Bem-sucedido</string>
+    <string name="failed_txt">Falhou</string>
+    <string name="acknowledge">Reconhecer</string>
+    <string name="accept">Aceitar</string>
+    <string name="decline">Declínio</string>
+    <string name="arrived">Chegou</string>
+    <string name="error_bar_code">&#8226; Adicione código de barras</string>
+    <string name="update_bar_code">Atualizar código de barras</string>
+    <string name="title_activity_search_task">Atividade da tarefa de pesquisa</string>
+    <string name="title_task_filter">Filtro</string>
+    <string name="hint_search">Procurar</string>
+
+    <!--Filter/Search Task Specific-->
+    <string name="title_date">Encontro</string>
+    <string name="search_task_date_from">A partir de</string>
+    <string name="search_task_date_to">Para</string>
+    <string name="search_task_status">Status</string>
+    <string name="search_task_status_all">Todos</string>
+    <string name="search_task_status_accepted">Aceitaram</string>
+    <string name="search_task_status_started">Começado</string>
+    <string name="search_task_status_arrived">Chegou</string>
+    <string name="search_task_status_successful">Bem-sucedido</string>
+    <string name="search_task_status_failed">Falhou</string>
+    <string name="search_task_status_cancelled">Cancelado</string>
+    <string name="search_task_status_declined">Recusado</string>
+    <string name="search_task_sort_by">Ordenar por</string>
+    <string name="search_task_sort_by_time">Tempo</string>
+    <string name="search_task_sort_by_distance">Distância</string>
+    <string name="action_clear">Claro</string>
+    <string name="action_apply">Aplique</string>
+    <string name="task_update_logout">Desculpe, você não pode sair agora. Complete a tarefa existente</string>
+    <string name="idle">ocioso</string>
+    <string name="task_progress">Desculpe Você não pode ficar offline devido à Tarefa em andamento</string>
+
+    <string name="title_add_notes">Notas</string>
+
+    <string name="hint_add_new_note">Adicione uma nova nota</string>
+
+    <!--Add Note Specific-->
+
+    <string name="hint_view_note">Ver notas</string>
+    <string name="hint_view_signature">Exibir sinal</string>
+    <string name="hint_images">Imagens</string>
+    <string name="title_add_images">Selecionar Imagens</string>
+    <string name="title_add_sign">Por favor assine</string>
+    <string name="action_reset">Redefinir</string>
+
+    <!--Add Images Specific-->
+    <string name="msg_sign_captured">Sinal capturado e salvo</string>
+
+    <!--Add Signature Specific-->
+    <string name="title_routes">Rota</string>
+    <string name="profile_act_title">Meu perfil</string>
+    <string name="agent_name_title">Primeiro nome</string>
+
+    <!--Routes Specific-->
+    <string name="agent_last_hint">Insira o último nome</string>
+
+    <!--Profile Specific-->
+    <string name="agent_last_name_title">Último nome</string>
+    <string name="hint_agent_name">Raja</string>
+    <string name="mob_num">Número de celular</string>
+    <string name="hint_mob_num">+919876543210</string>
+    <string name="email_id_title">Identificação do email</string>
+    <string name="hint_email_id">raja.i@nextbrainitech.in</string>
+    <string name="btn_update">Atualizar</string>
+    <string name="btn_add">Adicionar</string>
+    <string name="signature">Assinatura</string>
+    <string name="change_pwd_act_title">Mudar senha</string>
+    <string name="current_pwd">Senha atual</string>
+
+    <string name="new_pwd">Nova senha</string>
+    <!--Change Password Related-->
+    <string name="retype_pwd">Redigite a senha</string>
+    <string name="help_act_title">Socorro</string>
+    <string name="help_type">Tipo</string>
+    <string name="help_msg">mensagem</string>
+
+    <!--Help Specific-->
+    <string name="title_activity_settings">Configurações</string>
+    <string name="title_tasks_location">Tarefas</string>
+    <string name="tasks_on">Tarefas ativadas</string>
+    <string name="title_notifications">Notificações</string>
+
+    <!--Tasks Related Navigation-->
+    <string name="no_notification_msg">Ainda não há notificações!.</string>
+    <string name="title_analytics">Analytics</string>
+
+    <!--Notification Specific-->
+    <string name="settings_title_vehicle_type">Tipo de Veículo</string>
+    <string name="settings_title_notification">Notificações</string>
+
+    <!--Analytics Specific-->
+    <string name="settings_title_advanced_settings">Configurações avançadas</string>
+
+    <!-- Strings related to SettingsModel -->
+
+    <string name="settings_choose_vehicle_type">Escolha o tipo de veículo</string>
+    <string name="vehicle_type_walking">Caminhada</string>
+    <string name="vehicle_type_cycle">Ciclo</string>
+    <string name="vehicle_type_bike">Bicicleta</string>
+    <string name="vehicle_type_truck">Caminhão</string>
+    <string name="vehicle_type_car">Carro</string>
+    <string name="vehicle_type_scooter">Lambreta</string>
+    <string name="vibration_alert_long">Grandes</string>
+    <string name="vibration_alert_system">Sistema</string>
+    <string name="settings_ring_ringtone">toque</string>
+    <string name="settings_ring_vibration">Vibração</string>
+    <string name="settings_ring_title_vibration">Escolha o estilo de vibração</string>
+    <string name="settings_ring_title_app_lang">Escolha o idioma do aplicativo</string>
+    <string name="settings_map_style_title">Escolha o estilo do mapa</string>
+    <string name="settings_ring_default">Padrão</string>
+    <string name="settings_ring_repeat">Repetir</string>
+
+    <string name="settings_language">Língua</string>
+    <string name="settings_language_eng">Inglês</string>
+    <string name="settings_language_spanish">Espanhol</string>
+    <string name="settings_language_portuguese">Português</string>
+    <string name="settings_language_malay">malaia</string>
+    <string name="settings_language_arabic">árabe</string>
+
+    <string name="settings_map_style_normal">Normal</string>
+    <string name="settings_map_style_night">Modo noturno</string>
+    <string name="settings_navigation">Navegação</string>
+    <string name="settings_map_style">Estilo do mapa</string>
+    <string name="settings_show_traffic">Mostrar tráfego</string>
+
+    <string name="settings_power_saving_mode">Modo de economia de energia</string>
+    <string name="settings_navigation_helper">Auxiliar de Navegação</string>
+    <string name="settings_action_apply">Aplique</string>
+    <string name="settings_action_clear">Claro</string>
+    <string name="title_activity_fullscreen">Tela cheiaAtividade</string>
+    <string name="google_map_api_key">AIzaSyAf6RUwYpLJM282nAuAXd9duLBpt6-QoNc</string>
+    <string name="google_maps_api_key">AIzaSyBZG8PISLCb2-lEZFyjZlldPv9f-RjbGWM</string>
+    <string name="google_places_api_key">AIzaSyBk1wH9nqOv55r1Svwan5v21b19Nk7BAW8</string>
+
+
+    <string name="title_activity_naviagation">Tarefas</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="font_arial">font_arial</string>
+    <string name="Hours">Horas</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default</string>
+
+    <!--Font Specific-->
+    <string name="notification_content">03 de julho, 18:00 - Pickup \t 50 km de distância \nAWS, Pune Maharshtra, Índia</string>
+
+    <string name="notifin_accept">Aceitar</string>
+    <string name="notifin_decline">Declínio</string>
+
+
+    <!--Notification Specific-->
+    <string name="notifin_ack">Reconhecer</string>
+    <string name="notifin_new_task_title">1 Nova Tarefa</string>
+    <string name="imagepicker_multiselect_done">Feito</string>
+    <string name="imagepicker_multiselect_not_enough_singular">Você precisa selecionar mais 1 imagem</string>
+    <string name="imagepicker_multiselect_not_enough_plural" formatted="false">Você precisa selecionar% d mais imagens</string>
+
+
+    <!--TASK PHOTOS-->
+
+    <string name="imagepicker_multiselect_enough_singular">Você selecionou 1 imagem</string>
+    <string name="imagepicker_multiselect_enough_plural" formatted="false">Você selecionou% d imagens</string>
+    <string name="imagepicker_multiselect_overselect" formatted="false">Você não pode selecionar mais de% d imagens</string>
+    <string name="Task">ID da tarefa - #</string>
+    <string name="update_signature_header">Por favor, adicione uma assinatura</string>
+    <string name="update_sign">Atualize a assinatura</string>
+
+    <string name="add_images">&#8226; Por favor, adicione imagens</string>
+
+
+    <!--Signature-->
+
+    <string name="add_notes">&#8226; Por favor, adicione notas</string>
+    <string name="add_signature">&#8226; Por favor, adicione assinatura</string>
+    <string name="alert">Alerta!</string>
+    <string name="driver_offline">Alterne para plantão para prosseguir com a tarefa</string>
+    <string name="invalid_verification_spanish">Um código de verificação inválido foi fornecido. Tente novamente.</string>
+    <string name="app_main_screen">assinar em</string>
+
+    <string name="app_main_screen_title">Cognito Identidade</string>
+
+
+    <!---->
+
+    <string name="app_main_desc">Um aplicativo de amostra para mostrar o Cognito Identity e o SDK para Android.</string>
+
+
+    <string name="nav_drawer_open">Gaveta de navegação aberta</string>
+    <string name="nav_drawer_close">Fechar gaveta de navegação</string>
+    <string name="title_activity_user">Atividade do Usuário</string>
+    <string name="Username">Nome do usuário</string>
+    <string name="Password">Senha</string>
+    <string name="Menu">Cardápio</string>
+    <string name="pick_MFA">Opções de MFA</string>
+    <string name="title_activity_about_app">Sobre o aplicativo</string>
+    <string name="about">Copyright 2017 Amazon.com, Inc. ou suas afiliadas. Todos os direitos reservados. \n \nLicença licenciada sob a Amazon Software License (a "Licença"). \nVocê não pode usar este arquivo, exceto em conformidade com a Licença. \nUma cópia da Licença está localizada em \n \nhttp: // aws.amazon.com/asl/
+\n \nem no arquivo "licença" que acompanha este aplicativo. Este aplicativo é distribuído em uma base "COMO ESTÁ", SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, expressas ou implícitas. Consulte a Licença para obter o idioma específico que rege as permissões e limitações sob a Licença.</string>
+    <string name="more_info">Este é um aplicativo de amostra para mostrar o Cognito Identity e o SDK para Android.</string>
+    <string name="title_activity_sign_up_confirm">Inscreva-se Confirmar</string>
+    <string name="title_activity_mfa">Atividade MFA</string>
+    <string name="title_activity_choose_mfa">Escolha MFA</string>
+    <string name="title_activity_forgot_password">Esqueceu a Atividade da Senha</string>
+    <string name="title_activity_change_password">Alterar atividade de senha</string>
+    <string name="title_activity_verify">Verificar atividade</string>
+    <string name="title_activity_add_attribute">Adicionar atividade de atributo</string>
+    <string name="title_activity_device_settings">Configurações do dispositivo</string>
+    <string name="title_activity_new_password">Nova senha</string>
+    <string name="last_week">Semana Anterior</string>
+    <string name="last_month">Mês passado</string>
+    <string name="last_year">Ano passado</string>
+
+    <string name="todo">FAÇAM</string>
+
+    <string name="hour_of_duty">Hora de serviço</string>
+    <string name="subject">Adicione seu Assunto</string>
+    <string name="help_content">Como podemos te ajudar...?</string>
+
+    <string name="user_not_found">Usuário não existe</string>
+    <string name="invalid_user_found">Usuário ou senha incorretos.</string>
+
+    <!--Help-->
+
+    <string name="invalid_current_password">Senha atual incorreta.</string>
+    <string name="max_attempts">Limite de tentativa excedido. Tente depois de algum tempo.</string>
+
+
+    <!--Error spanish-->
+    <string name="user_already_logged">Esta conta já está conectada em outro dispositivo</string>
+    <string name="no_vechicle_found">Nenhum veículo encontrado</string>
+    <string name="gps_disabled">Verifique suas configurações de GPS. Defina o modo de alta precisão para continuar</string>
+    <string name="new_job_recivied">novo emprego</string>
+    <string name="task_updated">tarefa atualizada</string>
+    <string name="driver_blocked">motorista bloqueado</string>
+    <string name="admin_task">tarefa administrativa</string>
+    <string name="login_again">Entrar novamente</string>
+    <string name="deliforce_running_bg">Deliforce rodando em segundo plano</string>
+    <string name="choose_date">Escolha a data</string>
+    <string name="choose_date_time">Escolha Data Hora</string>
+    <string name="title_new_task">Criar nova tarefa</string>
+    <string name="order_id">ID do pedido</string>
+    <string name="Description">Descrição</string>
+    <string name="pincode">Pincode</string>
+    <string name="verify_customer_otp">Verificar cliente OTP</string>
+    <string name="distance_text">Distância</string>
+    <string name="didn_t_receive_the_otp">Não recebeu o OTP?</string>
+    <string name="resend_otp">ENVIAR OTP</string>
+    <string name="pickup_address">Endereço de retirada</string>
+    <string name="delivery_address">Endereço de entrega</string>
+    <string name="back_to_task_list">Voltar à lista de tarefas</string>
+    <string name="distance_travelled">Distância viajada</string>
+    <string name="travel_time">Tempo de viagem</string>
+    <string name="from_amp_to_date"><![CDATA[From & To Date]]></string>
+    <string name="amount">Montante</string>
+    <string name="total_payout">Pagamento total</string>
+    <string name="no_report_found">Nenhum relatório encontrado</string>
+    <string name="no_data_found">Nenhum dado encontrado</string>
+    <string name="title_fare_details">Detalhes da tarifa</string>
+
+    <string name="title_earnings">Ganhos</string>
+    <string name="please_select">Por favor selecione</string>
+    <string name="valid_one">Selecione a opção válida</string>
+    <string name="please_enter">Por favor, insira</string>
+    <string name="add_template">Adicionar modelo</string>
+    <string name="template_msg">Deseja repetir este modelo novamente ?</string>
+    <string name="go_to_list">Ir</string>
+    <string name="reach_customer_loc">Por favor, chegue à localização do cliente e complete a viagem</string>
+    <string name="field_mandatory">Campos personalizados obrigatórios</string>
+    <string name="exceed_qty_dropdown">Quantidade excedida! quantidade disponível é</string>
+    <string name="something_went_wrong">Algo deu errado</string>
+    <string name="logout_alert">Tem certeza de que deseja sair?</string>
+    <string name="customer_not_available">Cliente não disponível</string>
+    <string-array name="task_status">
+
+        <item>Atribuído</item>
+        <item>Começado</item>
+        <item>Cancelado</item>
+
+    </string-array>
+    <string-array name="filter_status_array">
+
+        <item>Todos</item>
+        <item>Bem-sucedido</item>
+        <item>Aceitaram</item>
+        <item>Falhou</item>
+        <item>Começado</item>
+        <item>Cancelado</item>
+        <item>Chegou</item>
+        <item>Recusado</item>
+
+
+    </string-array>
+    <string-array name="arr_dashboard_menus">
+        <item>Tarefas</item>
+        <item>Rota</item>
+        <item>Analytics</item>
+        <item>Perfil</item>
+        <item>Mudar senha</item>
+        <item>Notificações</item>
+        <item>Configurações</item>
+        <item>Socorro</item>
+        <item>Sair</item>
+    </string-array>
+
+    <string-array name="day_array">
+        <item>Hoje</item>
+        <item>Esta semana</item>
+        <item>Este mês</item>
+        <item>Este ano</item>
+    </string-array>
+    <string name="setting_app_version">Versão da aplicação</string>
+    <string name="err_arrival_customer_loc">Por favor, chegue perto da localização do cliente e clique em Chegou</string>
+    <string name="err_destination">Complete a tarefa de retirada</string>
+
+    <string name="error_four_max_images">É permitido adicionar no máximo 4 imagens para uma tarefa</string>
+    <string name="task_details_actual_customer">Cliente real</string>
+    <string name="task_details_add_actual_customer">Adicionar cliente real</string>
+    <string name="task_details_add_actual_customer_id">Identificação do Cliente</string>
+    <string name="task_details_add_actual_customer_name">nome do cliente</string>
+    <string name="error_customer_id">Digite o ID do cliente</string>
+    <string name="error_customer_name">Digite o nome do cliente</string>
+    <string name="capture_location">Local da captura</string>
+    <string name="location_captured">Localização do cliente capturada com sucesso!</string>
+    <string name="error_capture_location">&#8226; Capture a localização do cliente</string>
+    <string name="settings_ring_title_app_navigation">Escolha Navegação</string>
+    <string name="google_map">Google Map</string>
+    <string name="waze">Waze</string>
+
+    //task status static
+    <string name="status_two_past">Atribuído</string>
+    <string name="status_two_future">Atribuir</string>
+    <string name="status_three_past">Aceito</string>
+    <string name="status_three_future">Aceitar</string>
+    <string name="status_four_past">Iniciado</string>
+    <string name="status_four_future">Iniciar</string>
+    <string name="status_five_past">Chegou</string>
+    <string name="status_five_future">Chegada</string>
+    <string name="status_six_past">Bem-sucedido</string>
+    <string name="status_six_future">Sucesso</string>
+    <string name="status_seven_past">Falha</string>
+    <string name="status_seven_future">Falha</string>
+    <string name="status_eight_past">Recusado</string>
+    <string name="status_eight_future">Recusar</string>
+    <string name="status_nine_past">Cancelado</string>
+    <string name="status_nine_future">Cancelar</string>
+    <string name="status_ten_past">Reconhecido</string>
+    <string name="status_ten_future">Reconheça</string>
+    <string name="status_eleven_past">Cliente não disponível</string>
+    <string name="status_eleven_future">Cliente não disponível</string>
+    <string name="you_are_in_online">You are in online</string>
+    <string name="other">de outros</string>
+    <string name="invalid_barcode">Código de barras inválido</string>
+    <string name="enter_universal_product_code">Insira o código universal do produto</string>
+    <string name="universal_product_code">Código universal do produto</string>
+    <string name="err_upc">Insira o código universal do produto</string>
+    <string name="task_created">Tarefa criada com sucesso</string>
+    <string name="create">Criar</string>
+    <string name="tips">Dicas</string>
+    <string name="base_fare">Tarifa básica</string>
+    <string name="duration_fare">Tarifa de duração</string>
+    <string name="distance_fare">Tarifa de distância</string>
+    <string name="deduction">Dedução</string>
+    <string name="earnings_details">Detalhes de ganhos</string>
+</resources>

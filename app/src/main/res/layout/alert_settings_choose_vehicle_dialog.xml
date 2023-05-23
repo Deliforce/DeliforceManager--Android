@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/padding_medium"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_small"
+        android:fontFamily="@font/normal_font"
+        android:text="@string/settings_choose_vehicle_type"
+        android:textSize="@dimen/_16sdp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:background="@color/colorLightGray" />
+
+    <RadioGroup
+        android:id="@+id/radioVahicleTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large">
+
+        <RadioButton
+            android:id="@+id/radio_walking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/walk_gray"
+            android:paddingStart="@dimen/padding_medium"
+            android:drawablePadding="@dimen/_5sdp"
+            android:text="@string/vehicle_type_walking"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@drawable/radio_text_theme"
+            android:theme="@style/RadioButtonStyle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorLightGray" />
+
+        <RadioButton
+            android:id="@+id/radio_cycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableLeft="@drawable/cycle_gray"
+            android:paddingStart="@dimen/padding_medium"
+            android:text="@string/vehicle_type_cycle"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@drawable/radio_text_theme"
+            android:theme="@style/RadioButtonStyle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorLightGray" />
+
+        <RadioButton
+            android:id="@+id/radio_scooter"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:drawablePadding="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/scooter_gray"
+            android:paddingStart="@dimen/padding_medium"
+            android:text="@string/vehicle_type_scooter"
+            android:textColor="@drawable/radio_text_theme"
+            android:theme="@style/RadioButtonStyle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorLightGray" />
+
+        <RadioButton
+            android:id="@+id/radio_bike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bike_gray"
+            android:paddingStart="@dimen/padding_medium"
+            android:drawablePadding="@dimen/_5sdp"
+            android:text="@string/vehicle_type_bike"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@drawable/radio_text_theme"
+            android:theme="@style/RadioButtonStyle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorLightGray" />
+
+        <RadioButton
+            android:id="@+id/radio_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableLeft="@drawable/car_gray"
+            android:paddingStart="@dimen/padding_medium"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/vehicle_type_car"
+            android:textColor="@drawable/radio_text_theme"
+            android:theme="@style/RadioButtonStyle" />
+
+    </RadioGroup>
+
+</LinearLayout>

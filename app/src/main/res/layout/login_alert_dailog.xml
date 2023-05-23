@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/large_margin"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="8dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/normal_font"
+                android:gravity="center"
+                android:padding="@dimen/large_margin"
+                android:text="@string/alert"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_16sdp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/msg_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="start"
+            android:padding="@dimen/large_margin"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_img_size"
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_update"
+                style="@style/TextLowerCase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorDarkGray"
+                android:fontFamily="@font/normal_font"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

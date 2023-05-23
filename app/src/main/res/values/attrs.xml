@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:whatever="http://schemas.android.com/apk/res-auto">
+    <declare-styleable name="SquareGridLayout">
+        <attr name="spacing" format="dimension" />
+        <attr name="numColumns" format="integer" min="0" />
+    </declare-styleable>
+
+
+    <!--<declare-styleable name="CircleImageView">
+        <attr name="civ_border" format="boolean" />
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_background_color" format="color" />
+        <attr name="civ_shadow" format="boolean" />
+        <attr name="civ_shadow_color" format="color" />
+        <attr name="civ_shadow_radius" format="float" />
+        <attr name="civ_shadow_gravity">
+            <flag name="center" value="1" />
+            <flag name="top" value="2" />
+            <flag name="bottom" value="3" />
+            <flag name="start" value="4" />
+            <flag name="end" value="5" />
+        </attr>
+    </declare-styleable>-->
+
+
+    <declare-styleable name="DilatingDotsProgressBar">
+        <attr name="android:radius" />
+        <attr name="android:color" />
+        <attr name="dd_numDots" format="integer" />
+        <attr name="dd_scaleMultiplier" format="float" />
+        <attr name="dd_animationDuration" format="integer" />
+        <attr name="dd_horizontalSpacing" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandableGridView">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="stretchMode">
+            <enum name="none" value="0" />
+            <enum name="spacingWidth" value="1" />
+            <enum name="columnWidth" value="2" />
+            <enum name="spacingWidthUniform" value="3" />
+        </attr>
+        <attr name="columnWidth" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_headerLayout" format="reference" />
+        <attr name="el_contentLayout" format="reference" />
+        <attr name="el_duration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="InkView">
+        <!-- Feature flags for InkView. Defaults to "interpolation|responsiveWeight" -->
+        <attr name="inkFlags">
+            <!-- No features turned on -->
+            <flag name="none" value="0" />
+            <!-- Interpolate paths as cubic-bezier curves -->
+            <flag name="interpolation" value="1" />
+            <!-- Stroke width changes in categoryResponse to velocity -->
+            <flag name="responsiveWeight" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="BannerImageView">
+        <attr name="label" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandablTextView">
+        <attr name="animation_duration" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MyExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CountryCodePicker">
+        <!--{@deprecated Use defaultNameCode instead.}-->
+        <attr name="ccp_defaultPhoneCode" format="integer" />
+        <attr name="ccp_contentColor" format="color" />
+        <attr name="ccp_textSize" format="dimension" />
+        <attr name="ccp_arrowSize" format="dimension" />
+        <attr name="ccp_showArrow" format="boolean" />
+        <attr name="ccp_customMasterCountries" format="string" />
+        <attr name="ccp_flagBorderColor" format="color" />
+        <attr name="ccp_countryPreference" format="string" />
+        <attr name="ccp_defaultNameCode" format="string" />
+        <attr name="ccp_rememberLastSelection" format="boolean" />
+        <attr name="ccp_textGravity" format="enum">
+            <enum name="LEFT" value="-1" />
+            <enum name="RIGHT" value="1" />
+            <enum name="CENTER" value="0" />
+        </attr>
+
+        <!--CCP bool properties-->
+        <attr name="ccp_showNameCode" format="boolean" />
+        <attr name="ccp_showFlag" format="boolean" />
+        <attr name="ccp_showFullName" format="boolean" />
+        <attr name="ccp_clickable" format="boolean" />
+        <attr name="ccp_showPhoneCode" format="boolean" />
+        <attr name="ccp_autoDetectLanguage" format="boolean" />
+        <attr name="ccp_autoDetectCountry" format="boolean" />
+        <attr name="ccp_areaCodeDetectedCountry" format="boolean" />
+        <attr name="ccp_autoFormatNumber" format="boolean" />
+        <attr name="ccp_selectionMemoryTag" format="string" />
+
+        <!--CCP Dialog properties-->
+        <attr name="ccpDialog_keyboardAutoPopup" format="boolean" />
+        <attr name="ccpDialog_allowSearch" format="boolean" />
+        <attr name="ccpDialog_showPhoneCode" format="boolean" />
+        <attr name="ccpDialog_showFastScroller" format="boolean" />
+        <attr name="ccpDialog_fastScroller_bubbleColor" format="color" />
+        <attr name="ccpDialog_fastScroller_handleColor" format="color" />
+        <attr name="ccpDialog_fastScroller_bubbleTextAppearance" format="reference" />
+        <attr name="ccpDialog_backgroundColor" format="color" />
+        <attr name="ccpDialog_textColor" format="color" />
+        <attr name="ccpDialog_searchEditTextTint" format="color" />
+        <attr name="ccpDialog_showCloseIcon" format="boolean" />
+
+        <!--list of languages-->
+        <!--Make sure: order in this list must match order of Language Enum in CountryCodePicker.java. Values must be ascending starting from 0.-->
+        <attr name="ccp_defaultLanguage" format="enum">
+            <enum name="ARABIC" value="0" />
+            <enum name="BENGALI" value="1" />
+            <enum name="CHINESE_SIMPLIFIED" value="2" />
+            <enum name="CHINESE_TRADITIONAL" value="3" />
+            <enum name="DUTCH" value="4" />
+            <enum name="ENGLISH" value="5" />
+            <enum name="FRENCH" value="6" />
+            <enum name="GERMAN" value="7" />
+            <enum name="GUJARATI" value="8" />
+            <enum name="HEBREW" value="9" />
+            <enum name="HINDI" value="10" />
+            <enum name="INDONESIA" value="11" />
+            <enum name="ITALIAN" value="12" />
+            <enum name="JAPANESE" value="13" />
+            <enum name="KOREAN" value="14" />
+            <enum name="PORTUGUESE" value="15" />
+            <enum name="PUNJABI" value="16" />
+            <enum name="RUSSIAN" value="17" />
+            <enum name="SPANISH" value="18" />
+            <enum name="TURKISH" value="19" />
+            <enum name="UKRAINIAN" value="20" />
+        </attr>
+
+        <attr name="ccp_countryAutoDetectionPref" format="enum">
+            <enum name="SIM_ONLY" value="1" />
+            <enum name="NETWORK_ONLY" value="2" />
+            <enum name="LOCALE_ONLY" value="3" />
+            <enum name="SIM_NETWORK" value="12" />
+            <enum name="NETWORK_SIM" value="21" />
+            <enum name="SIM_LOCALE" value="13" />
+            <enum name="LOCALE_SIM" value="31" />
+            <enum name="NETWORK_LOCALE" value="23" />
+            <enum name="LOCALE_NETWORK" value="32" />
+            <enum name="SIM_NETWORK_LOCALE" value="123" />
+            <enum name="SIM_LOCALE_NETWORK" value="132" />
+            <enum name="NETWORK_SIM_LOCALE" value="213" />
+            <enum name="NETWORK_LOCALE_SIM" value="231" />
+            <enum name="LOCALE_SIM_NETWORK" value="312" />
+            <enum name="LOCALE_NETWORK_SIM" value="321" />
+        </attr>
+
+        <attr name="defaultCode" format="integer" />
+        <attr name="contentColor" format="color" />
+        <attr name="arrowSize" format="dimension" />
+        <attr name="countryPreference" format="string" />
+        <attr name="defaultNameCode" format="string" />
+        <attr name="hideNameCode" format="boolean" />
+        <attr name="ccpLanguage" format="enum">
+            <enum name="ARABIC" value="1" />
+            <enum name="BENGALI" value="2" />
+            <enum name="CHINESE" value="3" />
+            <enum name="ENGLISH" value="4" />
+            <enum name="FRENCH" value="5" />
+            <enum name="GERMAN" value="6" />
+            <enum name="GUJARATI" value="7" />
+            <enum name="HINDI" value="8" />
+            <enum name="JAPANESE" value="9" />
+            <enum name="JAVANESE" value="10" />
+            <enum name="PORTUGUESE" value="11" />
+            <enum name="RUSSIAN" value="12" />
+            <enum name="SPANISH" value="13" />
+        </attr>
+        <attr name="keyboardAutoPopOnSearch" format="boolean" />
+        <attr name="customMasterCountries" format="string" />
+        <attr name="showFlag" format="boolean" />
+        <attr name="showFullName" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="minWidth" format="dimension" />
+        <attr name="maxWidth" format="dimension" />
+        <attr name="minHeight" format="dimension" />
+        <attr name="maxHeight" format="dimension" />
+        <attr name="indicatorName" format="string" />
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DatePickerTimeline" tools:ignore="ResourceName">
+        <attr name="mti_primaryColor" format="color" />
+        <attr name="mti_primaryDarkColor" format="color" />
+
+        <attr name="mti_bgTimelineColor" format="color" />
+
+        <attr name="mti_tabSelectedColor" format="color" />
+        <attr name="mti_tabBeforeSelectionColor" format="color" />
+
+        <attr name="mti_lblDayColor" format="color" />
+
+        <attr name="mti_lblDateColor" format="color" />
+        <attr name="mti_lblDateSelectedColor" format="color" />
+        <attr name="mti_bgLblDateSelectedColor" format="color" />
+        <attr name="mti_ringLblDateSelectedColor" format="color" />
+        <attr name="mti_bgLblTodayColor" format="color" />
+
+        <attr name="mti_lblLabelColor" format="color" />
+
+        <attr name="mti_followScroll" format="boolean" />
+        <attr name="mti_yearDigitCount" format="integer" />
+        <attr name="mti_yearOnNewLine" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LoadingDots">
+        <attr name="LoadingDots_auto_play" format="boolean" />
+        <attr name="LoadingDots_dots_color" format="color" />
+        <attr name="LoadingDots_dots_count" format="integer" />
+        <attr name="LoadingDots_dots_size" format="dimension" />
+        <attr name="LoadingDots_dots_space" format="dimension" />
+        <attr name="LoadingDots_loop_duration" format="integer" />
+        <attr name="LoadingDots_loop_start_delay" format="integer" />
+        <attr name="LoadingDots_jump_duration" format="integer" />
+        <attr name="LoadingDots_jump_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SignaturePad">
+        <attr name="penMinWidth" format="dimension" />
+        <attr name="penMaxWidth" format="dimension" />
+        <attr name="penColor" format="color" />
+        <attr name="velocityFilterWeight" format="float" />
+        <attr name="clearOnDoubleClick" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="textIsDisplayable" format="boolean" />
+        <attr name="style">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="float" />
+        <attr name="donut_max" format="integer" />
+
+        <attr name="donut_unfinished_color" format="color" />
+        <attr name="donut_finished_color" format="color" />
+
+        <attr name="donut_finished_stroke_width" format="dimension" />
+        <attr name="donut_unfinished_stroke_width" format="dimension" />
+
+        <attr name="donut_text_size" format="dimension" />
+        <attr name="donut_text_color" format="color" />
+
+        <attr name="donut_prefix_text" format="string" />
+        <attr name="donut_suffix_text" format="string" />
+        <attr name="donut_text" format="string" />
+
+        <attr name="donut_background_color" format="color" />
+
+        <attr name="donut_inner_bottom_text" format="string" />
+        <attr name="donut_inner_bottom_text_size" format="dimension" />
+        <attr name="donut_inner_bottom_text_color" format="color" />
+
+        <attr name="donut_circle_starting_degree" format="integer" />
+        <attr name="donut_show_text" format="boolean" />
+        <attr name="donut_inner_drawable" format="reference" />
+    </declare-styleable>
+
+    <attr name="progressBarStyleHorizontal" format="reference" />
+
+</resources>

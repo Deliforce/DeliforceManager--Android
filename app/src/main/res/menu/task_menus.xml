@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/menuShowLocation"-->
+<!--        android:icon="@drawable/map_white"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:title="">-->
+<!--    </item>-->
+    <item
+        android:id="@+id/menuFilterTask"
+        android:icon="@drawable/search_menu"
+        app:showAsAction="ifRoom"
+        android:title="">
+    </item>
+</menu>

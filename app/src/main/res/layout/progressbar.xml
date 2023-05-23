@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:minHeight="100dp"
+    android:orientation="vertical">
+
+    <com.app.deliforcemanager.CustomViews.LoadingDots
+        android:id="@+id/progress_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:LoadingDots_dots_count="5"
+        app:LoadingDots_auto_play="true"
+        app:LoadingDots_dots_color="@color/colorPrimary"
+        app:LoadingDots_dots_size="10dp"
+        app:LoadingDots_dots_space="3dp"
+        app:LoadingDots_loop_duration="800"
+        app:LoadingDots_loop_start_delay="100"
+        app:LoadingDots_jump_duration="200"
+        app:LoadingDots_jump_height="3dp" />
+
+</LinearLayout>

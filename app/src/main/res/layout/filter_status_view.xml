@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:clickable="false"
+        android:id="@+id/status_box"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/normal_font"
+        android:textColor="@color/colorGray"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_margin" />
+
+</LinearLayout>

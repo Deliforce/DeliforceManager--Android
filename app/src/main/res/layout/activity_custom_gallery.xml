@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/select_imgs_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/select_imgs_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_size"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:id="@+id/title_add_imgs_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/normal_font"
+                android:text="@string/title_add_images"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ProgressBar
+        android:id="@+id/img_selection_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:theme="@style/AppTheme.ProgressStyle"
+        android:visibility="gone" />
+
+    <!-- Grid View fr Custom Gallery  -->
+    <include
+        android:id="@+id/galleryImagesGridView"
+        layout="@layout/custom_gallery_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_large"
+        android:layout_weight="1" />
+
+
+    <!-- Button to return Selected Images  -->
+    <Button
+        android:id="@+id/selectImagesBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/normal_font"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_body"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

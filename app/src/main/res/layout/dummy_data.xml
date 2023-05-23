@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/large_margin"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_add_sign"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:background="@color/colorTasksSettingsBG"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small"
+            android:layout_margin="@dimen/small_margin"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/img_add_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/notes" />
+
+            <TextView
+                android:id="@+id/tv_add_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/normal_font"
+                android:text="@string/task_details_add_notes"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/text_menu" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/signature_added"
+            android:layout_width="@dimen/activity_horizontal_margin"
+            android:layout_height="@dimen/activity_horizontal_margin"
+            android:text="1"
+            android:visibility="gone"
+            android:src="@drawable/tick_white"
+            android:layout_gravity="end"
+            android:scaleType="centerInside"
+            android:padding="@dimen/lowest_margin"
+            android:background="@drawable/signature_round_shape"/>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

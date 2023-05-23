@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/large_margin"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_large"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_reason_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/normal_font"
+            android:text="@string/task_details_add_actual_customer"
+            android:textSize="@dimen/_16sdp" />
+
+        <View
+            android:id="@+id/view_reason"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorLightGray" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/EditTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_details_add_actual_customer_id"
+            app:hintTextAppearance="@style/EditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/etCustomerId"
+                style="@style/UserProfileEditTextLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:fontFamily="@font/normal_font"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:maxLines="2"
+                android:paddingBottom="@dimen/padding_large"
+                android:textSize="@dimen/_13sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/EditTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_details_add_actual_customer_name"
+            app:hintTextAppearance="@style/EditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/etCustomerName"
+                style="@style/UserProfileEditTextLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:fontFamily="@font/normal_font"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:maxLines="2"
+                android:paddingBottom="@dimen/padding_large"
+                android:textSize="@dimen/_13sdp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/TextLowerCase"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorLightGray"
+                android:fontFamily="@font/normal_font_bold"
+                android:text="@string/btn_cancel"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_14sdp" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                style="@style/TextLowerCase"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@color/colorDarkGray"
+                android:fontFamily="@font/normal_font_bold"
+                android:text="@string/btn_add"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

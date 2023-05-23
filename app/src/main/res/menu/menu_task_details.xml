@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuTaskLocationUpdate"
+        android:icon="@drawable/ic_task_location"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="@string/capture_location">
+    </item>
+</menu>

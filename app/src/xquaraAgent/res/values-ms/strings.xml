@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">xQuara Agent</string>
+    <string name="mandatory_app_update">Bagi Meneruskan Perkhidmatan xQuara Agent.Sila Kemaskini Aplikasi Sekarang</string>
+
+    <string name="deliforce_running_bg">xQuara Agent Berjalan Pada Latar Belakang</string>
+</resources>

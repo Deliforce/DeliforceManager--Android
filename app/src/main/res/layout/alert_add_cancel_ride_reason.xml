@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_large"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_reason_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/normal_font"
+            android:text="@string/task_details_add_cancel_reason_title"
+            android:textSize="@dimen/_16sdp" />
+
+        <View
+            android:id="@+id/view_reason"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorLightGray" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/EditTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_details_add_cancel_reason_hint"
+            app:hintTextAppearance="@style/EditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/edt_task_decline_reason"
+                style="@style/UserProfileEditTextLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:fontFamily="@font/normal_font"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textSize="@dimen/_14sdp"
+                android:maxLines="2"
+                android:paddingBottom="@dimen/padding_large" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_reason_cancel"
+                    style="@style/TextLowerCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorLightGray"
+                    android:fontFamily="@font/normal_font"
+                    android:text="@string/btn_cancel"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_task_reason_send"
+                    style="@style/TextLowerCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorDarkGray"
+                    android:fontFamily="@font/normal_font"
+                    android:text="@string/btn_send"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

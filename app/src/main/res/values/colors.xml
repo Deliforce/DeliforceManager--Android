@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0abe51</color>
+    <color name="colorPrimaryDark">#09ab49</color>
+    <color name="colorAccent">#0abe51</color>
+    <color name="colorPrimaryTrans">#D30ABE51</color>
+    <color name="transparent">#00000000</color>
+    <color name="btn_color">#2B283C</color>
+    <color name="cancle_btn_color">#BCBCBC</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">@android:color/black</color>
+    <color name="menu_selected_color">#2B2C39</color>
+
+    <color name="app_background_color">#1201</color>
+    <color name="analytics_bg">#272936</color>
+
+    <color name="bg_color">#e6e6e6</color>
+    <color name="inprogress_color">#1793fd</color>
+    <color name="this_month">#3a3c47</color>
+    <color name="chart">#1e1f29</color>
+
+
+    <color name="color_bg">#e6e6e6</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkGray">#272936</color>
+    <color name="colorLightGray">#bdbdbd</color>
+    <color name="colorGray">#8d8d8d</color>
+    <color name="colorTaskAssigned">#f26408</color>
+    <color name="colorTaskStarted">#42a5f5</color>
+    <color name="colorTaskCancelled">#f21e08</color>
+    <color name="colorTaskAcknowledged">#CE93D8</color>
+    <color name="colorTasksSettingsBG">#f1f1f1</color>
+    <color name="text_color">#272936</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="shape_color">#FF2C2D39</color>
+    <color name="sub_text_light_grey">#737373</color>
+    <color name="sub_line_light_grey">#cccccc</color>
+
+
+    <!---->
+
+    <color name="toolbar_background">#404142</color>
+    <color name="toolbar_items">#CBCBCB</color>
+    <color name="alert">#AC1600</color>
+    <color name="success">#37A51C</color>
+    <color name="button_default">#329AD6</color>
+    <color name="informative_message">#329AD6</color>
+    <color name="button_pressed">#2A5C91</color>
+    <color name="text_border_default">#303232</color>
+    <color name="text_border_selected">#4EA9DC</color>
+    <color name="warning">#E94700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_100">#F5F7F7</color>
+    <color name="grey_300">#8D9496</color>
+    <color name="grey_400">#5A5D5E</color>
+    <color name="grey_500">#404142</color>
+    <color name="grey_600">#303232</color>
+    <color name="grey_700">#1D1E1E</color>
+    <color name="hint_color">#777777</color>
+
+
+</resources>

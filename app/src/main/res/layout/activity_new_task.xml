@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:background="@color/grey_100">
+
+        <ImageButton
+            android:id="@+id/btn_close_notification"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginEnd="@dimen/small_margin"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/ic_close_" />
+
+        <LinearLayout
+            android:id="@+id/layoutAckType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclerNotifications"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/layout_notify_decline_task"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_decline_notification"
+                    style="@style/TextLowerCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorLightGray"
+                    android:fontFamily="@font/normal_font"
+                    android:text="@string/notifin_decline"
+                    android:textColor="@color/colorDarkGray" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layoutStartType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layout_notify_cancle_task"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_cancle_notification"
+                        style="@style/TextLowerCase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorLightGray"
+                        android:fontFamily="@font/normal_font"
+                        android:text="@string/cancel_txt"
+                        android:textColor="@color/colorDarkGray"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_notify_start_task"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_start_task"
+                        style="@style/TextLowerCase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:fontFamily="@font/normal_font"
+                        android:text="@string/start"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_glympse_task"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btn_glympse_task"
+                    style="@style/TextLowerCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/normal_font"
+                    android:gravity="center"
+                    android:text="@string/go_to_list"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_notify_accept_task"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_accept_task"
+                    style="@style/TextLowerCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/normal_font"
+                    android:text="@string/notifin_accept"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_notify_acknowledge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <Button
+                    android:id="@+id/btn_acknowlwdge_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/normal_font"
+                    android:text="@string/notifin_ack"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/title_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium">
+
+            <TextView
+                android:id="@+id/tv_new_task_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/normal_font"
+                android:text="@string/notifin_new_task_title"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_notification"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

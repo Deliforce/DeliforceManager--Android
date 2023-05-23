@@ -1,0 +1,748 @@
+<resources>
+
+    <string name="app_name">Ejen Deliforce</string>
+    <string name="appLogicId">Deliforce3edbee8c0f3cdffa7cda0ee152ca81d2e</string>
+
+    <!--Common Alert Dialog-->
+
+    <string name="submit_txt">Hantar</string>
+
+    <string name="content_desc">Ini Adalah Paparan Gambar</string>
+    <string name="alert_dialog_ok_btn_txt">OK</string>
+    <string name="alert_dialog_cancel_btn_txt">Batal</string>
+
+    <string name="alert_dialog_dismis_confirm_title_txt">Adakah Anda Pasti Untuk Log Keluar?</string>
+    <string name="logoutText">Adakah Anda Pasti Untuk Log Keluar?</string>
+    <string name="website">Laman Web</string>
+    <string name="next">Seterusnya</string>
+    <string name="ok">OK</string>
+    <string name="logout_app">Logout</string>
+
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <string name="exit_app">Tekan Sekali Lagi Untuk Keluar</string>
+    <!---->
+
+    <!--permission helper alert dialog-->
+    <string name="dialog_before_run_title">Kebenaran Diperlukan</string>
+    <string name="dialog_before_run_message">Sila Terima Kebenaran Panggilan!</string>
+    <string name="dialog_positive_button">Faham</string>
+    <string name="dialog_location_before_run_message">Sila Terima Kebenaran Lokasi!</string>
+    <string name="dialog_camera">Sila Terima Kebenaran Kamera!</string>
+    <string name="title_activity_track_driver">Peta</string>
+    <string name="title_activity_home">AktivitiRumah</string>
+    <string name="title_section1">Bahagian 1</string>
+    <string name="title_section2">Bahagian 2</string>
+    <string name="title_section3">Bahagian 3</string>
+
+    <string name="action_example">Contoh Tindakan</string>
+
+    <!---->
+
+    <!--Error-->
+
+    <string name="error_max_images">Maksimum 5 Gambar Dibenarkan Ditambahkan Untuk Satu Tugas</string>
+    <string name="password_mismatch">Kata Laluan Tidak Sepadan</string>
+    <string name="error_empty_reason">Sila Nyatakan Sebab</string>
+    <string name="error_email">Sila Masukkan Nama Pengguna Yang Sah</string>
+    <string name="error_url">Sila Masukkan URL Yang Sah</string>
+    <string name="error_email_id">Sila Masukkan ID Email Yang Sah</string>
+    <string name="error_password">Sila Masukkan Kata Laluan Yang Sah</string>
+    <string name="error_passowrd_pattern">Kata Laluan Mesti Mengandungi 6 Atau Lebih Askara Dengan Sekurang-kurangnya Satu Huruf Besar,nombor &amp;amp; Simbol</string>
+    <string name="error_confirm">Sila Masukkan Semula Kata Laluan</string>
+    <string name="error_confirm_mismatch">Taip Semula Kata Laluan Yang Tidak Sepadan</string>
+    <string name="error_min_password">Panjang Kata Laluan Hendaklah Mempunyai Minimum 8 Huruf</string>
+    <string name="error_phone">Sila Masukkan 10 Digit Nombor Telefon Bimbit</string>
+    <string name="error_first_name">Sila Masukkan Nama Pertama Yang Sah</string>
+    <string name="error_last_name">Sila Masukkan Nama Terakhir Yang Sah</string>
+    <string name="error_mobile">Sila Masukkan Nombor Telefon Yang Sah</string>
+    <string name="error_name">Sila Masukkan Nama</string>
+    <string name="error_token">Sila Masukkan Token</string>
+    <string name="error_mismatch_token">Sila Masukkan Token Yang Sah</string>
+    <string name="error_location">Sila Masukkan Lokasi Yang Sah</string>
+    <string name="error_bank_name">Sila Masukkan Nama Bank</string>
+    <string name="error_bank_no">Sila Masukkan Nombor Akaun</string>
+    <string name="error_ifsc_code">Sila Masukkan Kod Ifsc</string>
+    <string name="error_branch_name">Sila Masukkan Nama Cawangan</string>
+    <string name="error_user_name">Sila Masukkan Nama Pemegang Akaun</string>
+    <string name="error_response">Pelayan Tidak Berfungsi.Sila Cuba Lagi</string>
+    <string name="error_block_user">Akaun Anda Telah Disekat!Sila Hubungi Pentadbir Anda</string>
+    <string name="error_exist_mobile">Maaf, Nombor Telefon Telah Wujud</string>
+    <string name="error_img_size">Sila Pilih Imej Yang Bersaiz Bawah Daripada 5MB</string>
+    <string name="success_password">Kata Laluan Berjaya Ditukar!</string>
+    <string name="password_fail">Kata Laluan Gagal</string>
+    <string name="verify_pass">Kod Telah Dihantar Ke</string>
+    <string name="via">Via</string>
+    <string name="empty_password">Kata Laluan Tidak Dibenarkan Untuk Kosong</string>
+    <string name="driver_update">Profil Pemandu Berjaya Dikemas Kini</string>
+    <string name="password_length">Kata Laluan Hendaklah Lebih Daripada 6 Huruf</string>
+    <string name="error_verification_code">Kod Pengesahan Tidak Dibenarkan Untuk Kosong</string>
+    <string name="error_signin">Log Masuk Gagal</string>
+    <string name="invalid_verification">Kod Pengesahan Tidak Sah, Sila Cuba Lagi.</string>
+    <string name="invalid_verification_english">Kod Pengesahan Yang Dinyatakan Tidak Sah, Sila Cuba Lagi</string>
+    <string name="onfailure_api">Sambungan Internet Lemah, Sila Cuba Lagi</string>
+
+    <string name="error_old_password">Sila Masukkan Kata Laluan Terkini Yang Sah</string>
+    <string name="password_fail_change">Penukaran Kata Laluan Gagal</string>
+    <!--Common Strings-->
+
+
+    <string name="cancel_txt">Batal</string>
+    <string name="start_txt">Mula</string>
+    <string name="date_txt">Tarikh</string>
+    <string name="time_txt">Masa</string>
+    <string name="distance_txt">Jarak</string>
+    <string name="status_txt">Status</string>
+    <string name="apply_txt">Mohon</string>
+    <string name="clear_txt">Kosongkan</string>
+    <string name="update_txt"></string>
+
+
+    <!--Login page-->
+
+    <string name="login_header_txt">Log Masuk Untuk Meneruskan</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">Kata Laluan</string>
+    <string name="forgot_password_txt">Lupa Kata Laluan?</string>
+    <string name="login_txt">Log Masuk</string>
+    <!---->
+
+
+    <!--Forgot password-->
+    <string name="forgot_password_header_txt">Lupa Kata Laluan</string>
+    <string name="send_btn_txt">Hantar</string>
+    <string name="success_txt">Berjaya</string>
+    <string name="failure_txt">Gagal</string>
+
+
+    <!---->
+
+    <!--Response mesaages-->
+
+    <string name="signature_update">Tandatangan Berjaya Dikemaskini</string>
+    <string name="signture_added">Tambahan Tanda Tangan Berjaya</string>
+    <string name="add_notes_success">Nota Tambahan Berjaya</string>
+    <string name="update_note">Nota Tambahan Berjaya Dikemaskkini</string>
+    <string name="delete_note">Nota Berjaya Dibuang</string>
+    <string name="bar_code_success">Kod Bar Berjaya Ditambah</string>
+
+    <string name="profile_img_success">Gambar Profil Berkaya Dikemaskini</string>
+    <string name="task_accept_error">Maaf! Tugasan Ini Telah Diterima Oleh Pemandu Lain</string>
+    <!--Menu items-->
+
+    <string name="nav_task">Tugasan</string>
+    <string name="nav_route">Laluan</string>
+    <string name="nav_earnings">Pendapatan</string>
+    <string name="nav_analytics">Analisis</string>
+    <string name="nav_profile">Profil</string>
+    <string name="my_profile">Profil Saya</string>
+    <string name="nav_password">Tukar Kata Laluan</string>
+    <string name="nav_notifications">Notifikasi</string>
+    <string name="nav_settings">Tetapan</string>
+    <string name="nav_help">Bantuan</string>
+    <string name="nav_logout">Log Keluar</string>
+    <string name="nav_online">Dalam Tugasan</string>
+    <string name="nav_offline">Keluar Tugasan</string>
+    <!---->
+
+
+    <!--Task-->
+
+    <string name="add_note_txt">Tambah Nota</string>
+
+    <string name="add_images_txt">Tambah Gambar</string>
+    <string name="add_signature_txt">Tambah Tandatangan</string>
+    <string name="task_id_txt">ID Tugasan</string>
+    <string name="cancel_header_txt">Nyatakan Sebab</string>
+
+    <!---->
+
+
+    <!--Cancel reason-->
+
+    <string name="reason_txt">Sebab</string>
+    <string name="enter_reason">Nyatakan Sebab</string>
+    <string name="search_txt">Cari</string>
+
+    <!---->
+
+
+    <!--Filter-->
+
+    <string name="from_txt">Daripada</string>
+    <string name="to_txt">Kepada</string>
+    <string name="sort_by_txt">Disusun Daripada</string>
+
+    <string name="profile_header_txt">Profil Saya</string>
+
+    <string name="naem_txt">Nama</string>
+
+    <!---->
+
+    <!--Profile-->
+
+    <string name="mobile_no_txt">Nombor Telefon Bimbit</string>
+    <string name="email_id_txt">ID Email</string>
+    <string name="currrent_password_txt">Kata Laluan Terkini</string>
+    <string name="new_password_txt">Kata Laluan Baru</string>
+
+    <!---->
+
+    <!--Change password-->
+    <string name="retype_password">Taip Semula Kata Laluan</string>
+    <string name="vehicle_type_txt">Jenis Kenderaan</string>
+    <string name="notifications">Notifikasi</string>
+
+    <!---->
+
+
+    <!--settings-->
+
+    <string name="advance_settings">Tetapan Lanjutan</string>
+    <string name="ring_tone_txt">Nada Dering</string>
+    <string name="vibration_txt">Getaran</string>
+    <string name="repeat_txt">Ulang</string>
+    <string name="langauge_txt">Bahasa</string>
+    <string name="naviagation_txt">Navigasi</string>
+    <string name="map_style_txt">Gaya Peta</string>
+    <string name="show_traffic_txt">Tunjukkan Lalu Lintas</string>
+    <string name="power_saving_txt">Mod Jimat Tenaga</string>
+    <string name="navigation_helper_txt">Pembantu Navigasi</string>
+    <string name="settings_update">Tetapan Berjaya Dikemaskini</string>
+    <string name="notes_empty">Sila Masukkan Input Anda</string>
+    <string name="empty_tasks">Tiada Tugasan</string>
+    <string name="unble_tasks">Tidak Dapat Memaparkan Tugasan</string>
+    <string name="unable_load_imgs">Tidak Dapat Memaparkan Imej Disebabkan Sambungan Internet Adalah Lemah</string>
+    <string name="password_success">Kata Laluan Anda Berjaya Ditukar</string>
+    <string name="unable_signture">Tidak Dapat Menyimpan Tandatangan</string>
+    <string name="no_signature">Tiada Tandatangan</string>
+    <string name="signaute_load">Tidk Dapat Menyimpan Tandatangan</string>
+    <string name="type_txt">Taip</string>
+    <string name="msg_txt">Pesanan</string>
+
+    <!---->
+
+    <!--help-->
+
+    <string name="title_activity_menu">Aktiviti Menu</string>
+    <string name="navigation_drawer_open">Buka Laci Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Laci Navigasi</string>
+
+    <string name="action_settings">Tetapan</string>
+    <string name="splash_content">\t \t \t Jambatan Antara \n \t Pelanggan Dan Agen</string>
+
+    <string name="login_to_continue">Log Masuk Untuk Meneruskan!</string>
+
+    <!---->
+
+
+    <!--Splash Screen Specific-->
+    <string name="email_mobile">E-mel</string>
+
+    <!--Login Screen Specific-->
+    <string name="hint_email_mobile">Abcd@nextbrainitech.com</string>
+    <string name="password">Kata Laluan</string>
+    <string name="hint_pwd">********</string>
+    <string name="forgot_pwd">Lupa Kata Laluan?</string>
+    <string name="login">Log Masuk</string>
+    <string name="confirm">Pasti</string>
+    <string name="agent_name">Wlliam Adward</string>
+
+    <string name="duty_status_offline">Di Luar Talian</string>
+    <!--Dashboard Specific-->
+    <string name="duty_status_online">Dalam Tugasan</string>
+    <string name="menu_task">Tugasan</string>
+    <string name="menu_route">Laluan</string>
+    <string name="menu_analytics">Analisis</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_change_pwd">Tukar Kata Laluan</string>
+    <string name="menu_notifications">Notifikasi</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_logout">Log Keluar</string>
+    <string name="no_geocoder_available">Geocoder Tidak Tersedia</string>
+    <string name="fetch_address">Ambil Alamat</string>
+
+    <string name="address_found">Alamat Ditemui</string>
+
+
+    <!--Fetch Address-->
+
+    <string name="no_address_found">Maaf, Alamat Tidak Ditemui</string>
+    <string name="no_location_data_provided">Tiada Permintaan Lokasi Data Disediakan</string>
+
+    <string name="service_not_available">Perkhidmatan Tidak Tersedia</string>
+
+    <string name="no_service_data">Perkhidmatan Kami Tidak Tersedia Di Bandar Ini</string>
+    <string name="notify_data">Kami Akan Memaklumkan Sebaik Sahaja Perkhidmatan Ini Dilancarkan</string>
+    <string name="invalid_lat_long_used">Latitud Dan Longitud Yang Disediakan Tidak Sah</string>
+    <string name="place_holder_text_cancel_ride">Nyatakan Alasan Anda Disini.......</string>
+    <string name="reset_mob_error">Sila Nyatakan Nombor Telefon Bimbit</string>
+    <string name="fav_text">Kegemaran</string>
+    <string name="ok_btn">OK</string>
+
+    <string name="onFailure_msg">Ralat, Sila Cuba Lagi</string>
+    <string name="no_internet_conn_msg_txt">Tiada Sambungan Internet Pada Peranti Anda,Sila Benarkan</string>
+
+    <string name="enable_permission">Sila Izinkan Kebenaran</string>
+
+    <string name="enable_camera_permission">Sila Izinkan Kebenaran Kamera</string>
+
+    <string name="onDenied">Kebenaran Ditolak</string>
+    <string name="cancel_btn">Batal</string>
+    <string name="title_forgot_pass">Lupa Kata Laluan</string>
+    <string name="title_new_password">Kata Laluan Baru</string>
+    <string name="forgot_email_mobile">E-mel</string>
+    <!---->
+
+
+    <!--Forgot Password-->
+    <string name="verification_code">Kod Verifikasi</string>
+    <string name="hint_forgot_pass">Abcd@lmn.com</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_send">Hantar</string>
+    <string name="btn_skip">Langkau</string>
+    <string name="mandatory_app_update">Bagi Meneruskan Perkhidmatan Deliforce.Sila Kemaskini Aplikasi Sekarang</string>
+    <string name="optional_update">Kemas Kini Versi Baru Tersedia. Sila Kemas Kini Aplikasi.</string>
+    <string name="route">Laluan</string>
+
+    <string name="analytics">Analisis</string>
+    <string name="profile">Profil</string>
+
+
+    <!--DashBoard-->
+
+    <string name="change_password">Tukar Kata Laluan</string>
+    <string name="settings">Tetapan</string>
+    <string name="help">Bantuan</string>
+    <string name="title_task">Tugasan</string>
+    <string name="title_time">Mins</string>
+    <string name="task_time">07:30 PM</string>
+
+
+    <!--Task Specific-->
+    <string name="task">- Penghantaran</string>
+    <string name="task_status">Dihantar</string>
+    <string name="cust_name">Nama Pelanggan</string>
+    <string name="cust_address">Alamat</string>
+    <string name="task_status_accepted">Diterima</string>
+    <string name="task_status_assigned">Ditugaskan</string>
+    <string name="task_status_started">Dimulakan</string>
+    <string name="task_status_in_progress">Tiba</string>
+    <string name="task_status_success">Berjaya</string>
+    <string name="task_status_failed">Gagal</string>
+    <string name="task_status_cancelled">Dibatalkan</string>
+    <string name="task_status_deleted">Dibuang</string>
+    <string name="task_status_acknowledge">Diperakukan</string>
+    <string name="task_type_pick_up">- Pengambilan</string>
+    <string name="pick_up">Pengambilan</string>
+    <string name="delivery">Penghantaran</string>
+    <string name="task_type_delivery">- Penghantaran</string>
+    <string name="task_type_field_work">- Petugas Lapangan</string>
+    <string name="field_work">Petugas Lapangan</string>
+    <string name="task_type_appointments">- Temujanji</string>
+    <string name="appointments">Temujanji</string>
+    <string name="msg_no_tasks">Tiada Tugasan Tersedia! Sila Minta Pengurus Anda Untuk Memberikan Tugas</string>
+    <string name="task_complete">Tugasan Selesai</string>
+    <string name="time_on_duty">Masa Dalam Tugasan</string>
+    <string name="time_task">Masa Untuk Setiap Tugasan</string>
+    <string name="distance_task">Jarak Untuk Setiap Tugasan</string>
+
+    <string name="stop_task">Masa Berhenti/ Tugasan</string>
+    <string name="onTime">Menepati Masa</string>
+    <string name="delay">Kelewatan</string>
+    <string name="delete">Padam</string>
+    <string name="edit">Mengedit</string>
+    <string name="task_images">Rujukkan Gambar</string>
+    <string name="title_task_details">ID Tugasan - #</string>
+    <string name="task_details_task_time">07:30 PM</string>
+    <string name="task_details_task_name">- Penghantaran</string>
+
+
+    <!--Task Details Specific-->
+    <string name="task_details_task_status">Ditugaskan</string>
+    <string name="task_details_cust_name">Raj</string>
+    <string name="task_details_cust_address">Whitefield,Bangalore</string>
+    <string name="task_details_description">Modul Perenggan Membenarkan Pencipta Kandungan Memilih
+        Jenis Perenggan Yang Mereka Mahu Letakkan Di Halaman, Dan Susunan Di Mana Mereka Mahu Meletakkannya.
+        Mereka Dapat Melakukan Semua Ini Melalui Skrin Edit Nod Yang Dikenali.</string>
+    <string name="task_details_add_notes">Tambah Nota</string>
+    <string name="task_details_add_imgs">Tambah Nota</string>
+    <string name="task_details_add_sign">Tambah Tanda</string>
+
+    <string name="task_details_add_bar_code">Tambah Tanda</string>
+    <string name="task_details_edit_sign">Mengedit Tanda</string>
+    <string name="task_details_add_cancel_reason_title">Tambah Alasan</string>
+    <string name="task_details_add_cancel_reason_hint">Alasan</string>
+    <string name="start">Mula</string>
+    <string name="success">Berjaya</string>
+    <string name="failed_txt">Gagal</string>
+    <string name="acknowledge">Diperakui</string>
+    <string name="accept">Terima</string>
+    <string name="decline">Tolak</string>
+    <string name="arrived">Tiba</string>
+    <string name="error_bar_code">&amp;bull; Sila Tambah Kod Bar</string>
+    <string name="error_actual_customer">&amp;bull; Sila Tambah Pelanggan Sebenar</string>
+
+    <string name="update_bar_code">Kemaskini Kod Bar</string>
+    <string name="title_activity_search_task">CariTugasanAktiviti</string>
+    <string name="title_task_filter">Tapis</string>
+    <string name="hint_search">Cari</string>
+
+    <!--Filter/Search Task Specific-->
+    <string name="title_date">Tarikh</string>
+    <string name="search_task_date_from">Daripada</string>
+    <string name="search_task_date_to">Kepada</string>
+    <string name="search_task_status">Status</string>
+    <string name="search_task_status_all">Semua</string>
+    <string name="search_task_status_accepted">Diterima</string>
+    <string name="search_task_status_started">Dimulakan</string>
+    <string name="search_task_status_arrived">Telah Tiba</string>
+    <string name="search_task_status_successful">Berjaya</string>
+    <string name="search_task_status_failed">Gagal</string>
+    <string name="search_task_status_cancelled">Dibatalkan</string>
+    <string name="search_task_status_declined">Ditolak</string>
+    <string name="search_task_sort_by">Disusun Dengan</string>
+    <string name="search_task_sort_by_time">Masa</string>
+    <string name="search_task_sort_by_distance">Jarak</string>
+    <string name="action_clear">Jelas</string>
+    <string name="action_apply">Mohon</string>
+    <string name="task_update_logout">Maaf, Anda Tidak Dibenarkan Log Out Sehingga Tugas Diselesaikan</string>
+    <string name="idle">Idle</string>
+    <string name="task_progress">Maaf, Anda Tidak Dibenarkan Keluar Talian Kerana Tugasan Sedang Dijalankan</string>
+
+    <string name="title_add_notes">Nota</string>
+
+    <string name="hint_add_new_note">Tambah Nota Baru</string>
+
+    <!--Add Note Specific-->
+
+    <string name="hint_view_note">Lihat Nota</string>
+    <string name="hint_view_signature">Lihat Tanda</string>
+    <string name="hint_images">Imej</string>
+    <string name="title_add_images">Pilih Imej</string>
+    <string name="title_add_sign">Sila Tanda</string>
+    <string name="action_reset">Tetapkan Semula</string>
+
+    <!--Add Images Specific-->
+    <string name="msg_sign_captured">Tanda Ditangkap Dan Disimpan</string>
+
+    <!--Add Signature Specific-->
+    <string name="title_routes">Laluan</string>
+    <string name="profile_act_title">Profil Saya</string>
+    <string name="agent_name_title">Nama Pertama</string>
+
+    <!--Routes Specific-->
+    <string name="agent_last_hint">Masukkan Nama Terakhir</string>
+
+    <!--Profile Specific-->
+    <string name="agent_last_name_title">Nama Terakhir</string>
+    <string name="hint_agent_name">Raja</string>
+    <string name="mob_num">Nombor Telefon Bimbit</string>
+    <string name="hint_mob_num">+919876543210</string>
+    <string name="email_id_title">ID E-mel</string>
+    <string name="hint_email_id">Raja.i@nextbrainitech.in</string>
+    <string name="btn_update">Kemaskini</string>
+    <string name="btn_add">Tambah</string>
+    <string name="signature">Tandatangan</string>
+    <string name="change_pwd_act_title">Tukar Kata Laluan</string>
+    <string name="current_pwd">Kata Laluan Terkini</string>
+
+    <string name="new_pwd">Kata Laluan Baru</string>
+    <!--Change Password Related-->
+    <string name="retype_pwd">Taip Semula Kata Laluan</string>
+    <string name="help_act_title">Bantuan</string>
+    <string name="help_type">Taip</string>
+    <string name="help_msg">Pesanan</string>
+
+    <!--Help Specific-->
+    <string name="title_activity_settings">Tetapan</string>
+    <string name="title_tasks_location">Tugasan</string>
+    <string name="tasks_on">Tugasan Pada</string>
+    <string name="title_notifications">Notifikasi</string>
+
+    <!--Tasks Related Navigation-->
+    <string name="no_notification_msg">Tiada Notifikasi Tersedia</string>
+    <string name="title_analytics">Analisis</string>
+
+    <!--Notification Specific-->
+    <string name="settings_title_vehicle_type">Jenis Kenderaan</string>
+    <string name="settings_title_notification">Notifikasi</string>
+
+    <!--Analytics Specific-->
+    <string name="settings_title_advanced_settings">Tetapan Maju</string>
+
+    <!-- Strings related to SettingsModel -->
+
+    <string name="settings_choose_vehicle_type">Pilih Jenis Kenderaan</string>
+    <string name="vehicle_type_walking">Pejalan Kaki</string>
+    <string name="vehicle_type_cycle">Basikal</string>
+    <string name="vehicle_type_bike">Motosikal</string>
+    <string name="vehicle_type_truck">Trak</string>
+    <string name="vehicle_type_car">Kereta</string>
+    <string name="vehicle_type_scooter">Skuter</string>
+    <string name="vibration_alert_long">Panjang</string>
+    <string name="vibration_alert_system">Sistem</string>
+    <string name="settings_ring_ringtone">Nada Dering</string>
+    <string name="settings_ring_vibration">Getaran</string>
+    <string name="settings_ring_title_vibration">Pilih Gaya Getaran</string>
+    <string name="settings_ring_title_app_lang">Pilih Bahasa</string>
+    <string name="settings_map_style_title">Pilih Gaya Peta</string>
+    <string name="settings_ring_default">Lalai</string>
+    <string name="settings_ring_repeat">Ulang</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_language_eng">Bahasa Inggeris</string>
+    <string name="settings_language_spanish">Bahasa Sepanyol</string>
+    <string name="settings_language_french">Bahasa Perancis</string>
+    <string name="settings_language_portuguese">Bahasa Portugis</string>
+    <string name="settings_language_malay">Bahasa Melayu</string>
+    <string name="settings_language_arabic">Bahasa Arab</string>
+
+    <string name="settings_map_style_normal">Normal</string>
+    <string name="settings_map_style_night">Mod Malam</string>
+    <string name="settings_navigation">Navigasi</string>
+    <string name="settings_map_style">Peta</string>
+    <string name="settings_show_traffic">Tunjukkan Lalu Lintas</string>
+
+    <string name="settings_power_saving_mode">Mod Jimat Tenaga</string>
+    <string name="settings_navigation_helper">Bantuan Navigasi</string>
+    <string name="settings_action_apply">Mohon</string>
+    <string name="settings_action_clear">Kosongkan</string>
+    <string name="title_activity_fullscreen">AktivitiSkrinPenuh</string>
+    <string name="google_map_api_key">AIzaSyAf6RUwYpLJM282nAuAXd9duLBpt6-QoNc</string>
+    <string name="google_maps_api_key">AIzaSyBZG8PISLCb2-lEZFyjZlldPv9f-RjbGWM</string>
+    <string name="google_places_api_key">AIzaSyBk1wH9nqOv55r1Svwan5v21b19Nk7BAW8</string>
+
+
+    <string name="title_activity_naviagation">Tugasan</string>
+    <string name="nav_header_title">Studio Android</string>
+    <string name="nav_header_subtitle">Android.studio@android.com</string>
+    <string name="nav_header_desc">Tajuk Navigasi</string>
+    <string name="font_arial">Fon_arial</string>
+    <string name="Hours">Jam</string>
+    <string name="default_notification_channel_id" translatable="false">Fcm_lalai</string>
+
+    <!--Font Specific-->
+    <string name="notification_content">03 July, 06pm - Pengambilan \t 50km Jauhnya \nAWS, Pune Maharshtra, India</string>
+
+    <string name="notifin_accept">Terima</string>
+    <string name="notifin_decline">Ditolak</string>
+
+
+    <!--Notification Specific-->
+    <string name="notifin_ack">Perakuan</string>
+    <string name="notifin_new_task_title">1 Tugasan Baru</string>
+    <string name="imagepicker_multiselect_done">Siap</string>
+    <string name="imagepicker_multiselect_not_enough_singular">Anda Dikehendaki Memilih 1 Imej</string>
+    <string name="imagepicker_multiselect_not_enough_plural" formatted="false">Anda Dikehendaki Untuk Memilih %d Lebih Imej</string>
+
+
+    <!--TASK PHOTOS-->
+
+    <string name="imagepicker_multiselect_enough_singular">Anda Telah Memilih Satu Imejj</string>
+    <string name="imagepicker_multiselect_enough_plural" formatted="false">Anda Dikehendaki Untuk Memilih %d Lebih Imej</string>
+    <string name="imagepicker_multiselect_overselect" formatted="false">Anda Tidak Dibenarkan Untuk Memilih %d Lebih Imej</string>
+    <string name="Task">ID Tugasan - #</string>
+    <string name="update_signature_header">Sila Tambah Tandatangan</string>
+    <string name="update_sign">Sila Kemaskini Tandatangan</string>
+
+    <string name="add_images">&amp;bull; Sila Tambah Imej</string>
+
+
+    <!--Signature-->
+
+    <string name="add_notes">&amp;bull; Sila Tambah Nota</string>
+    <string name="add_signature">&amp;bull; Sila Tambah Tandatangan</string>
+    <string name="alert">Amaran!</string>
+    <string name="driver_offline">Sila Beralih Kepada Mod Dalam Tugasan Untuk Meneruskan Tugasan</string>
+    <string name="invalid_verification_spanish">Kod Pengesahan Yang Tidak Betul Diberikan, Sila Cuba Lagi.</string>
+    <string name="app_main_screen">Log Masuk</string>
+
+    <string name="app_main_screen_title">Identiti Cognito</string>
+
+
+    <!---->
+
+    <string name="app_main_desc">Contoh Aplikasi Untuk Mempamerkan Cognito Identity Dan SDK Untuk Android.</string>
+
+
+    <string name="nav_drawer_open">Buka Laci Navigasi</string>
+    <string name="nav_drawer_close">Tutup Laci Navigasi</string>
+    <string name="title_activity_user">AktivitiPengunna</string>
+    <string name="Username">Nama Penguna</string>
+    <string name="Password">Kata Laluan</string>
+    <string name="Menu">Menu</string>
+    <string name="pick_MFA">Pilihan MFA</string>
+    <string name="title_activity_about_app">MengenaiAplikasi</string>
+    <string name="about">Copyright 2017 Amazon.com, Inc. Or Its Affiliates. All Rights Reserved.\n\nLicensed Under The Amazon Software License (the &amp;quot;License&amp;quot;).\nYou May Not Use This File Except In Compliance With The License.\nA Copy Of The License Is Located At\n\nhttp://aws.amazon.com/asl/
+\n\nor In The &amp;quot;license&amp;quot; File Accompanying This App. This App Is Distributed On An &amp;quot;AS IS&amp;quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, Either Express Or Implied. See The License For The Specific Language Governing Permissions And Limitations Under The License.</string>
+    <string name="more_info">Ini Adalah Contoh Aplikasi Untuk Mempamerkan Cognito Identity Dan SDK Untuk Android.</string>
+    <string name="title_activity_sign_up_confirm">PengesahanPendaftaran</string>
+    <string name="title_activity_mfa">AktivitiMFA</string>
+    <string name="title_activity_choose_mfa">PilihMFA</string>
+    <string name="title_activity_forgot_password">LupaKataLaluanAktiviti</string>
+    <string name="title_activity_change_password">TukarKataLaluanAktiviti</string>
+    <string name="title_activity_verify">PengesahanAktiviti</string>
+    <string name="title_activity_add_attribute">TambahAktivitiAtribut</string>
+    <string name="title_activity_device_settings">TetapanPeranti</string>
+    <string name="title_activity_new_password">KataLaluanBaru</string>
+    <string name="last_week">Minggu Lepas</string>
+    <string name="last_month">Bulan Lepas</string>
+    <string name="last_year">Tahun Lepas</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="hour_of_duty">Bilangan Jam Dalam Tugasan</string>
+    <string name="subject">Aambah Subjek Anda</string>
+    <string name="help_content">Bagaimana Kami Boleh Membantu Anda...?</string>
+
+    <string name="user_not_found">Pengunna Tidak Wujud</string>
+    <string name="invalid_user_found">Kesalahan Nama Pengguna Dan Kata Laluan.</string>
+
+    <!--Help-->
+
+    <string name="invalid_current_password">Kesalahan Kata Laluan Terkini</string>
+    <string name="max_attempts">Percubaan Mencapai Had, Sila Cuba Kemudian.</string>
+
+
+    <!--Error spanish-->
+    <string name="user_already_logged">Akaun Ini Telah Dilog Masuk Pada Peranti Yang Lain</string>
+    <string name="no_vechicle_found">Kenderaan Tidak Ditemui</string>
+    <string name="gps_disabled">Periksa Tetapan GPS Anda. Tetapkan Ke Mod Ketepatan Tinggi Untuk Meneruskan</string>
+    <string name="new_job_recivied">Tugasan_baru</string>
+    <string name="task_updated">Tugasan_dikemaskini</string>
+    <string name="driver_blocked">Pemandu_disekat</string>
+    <string name="admin_task">Tugasan_pentadbiran</string>
+    <string name="login_again">Log Masuk Semula</string>
+    <string name="deliforce_running_bg">Deliforce Berjalan Pada Latar Belakang</string>
+    <string name="choose_date">Pilih Tarikh</string>
+    <string name="choose_date_time">Pilih Tarikh Masa</string>
+    <string name="title_new_task">Cipta Tugasan Baru</string>
+    <string name="order_id">ID Tempahan</string>
+    <string name="Description">Deskripsi</string>
+    <string name="pincode">KodPin</string>
+    <string name="verify_customer_otp">Sahkan OTP Pelanggan</string>
+    <string name="distance_text">Jarak</string>
+    <string name="didn_t_receive_the_otp">Tidak Menerima OTP?</string>
+    <string name="resend_otp">Hantar Semula OTP</string>
+    <string name="pickup_address">Alamat Pengambilan</string>
+    <string name="delivery_address">Alamat Penghantaran</string>
+    <string name="back_to_task_list">Kembali Ke Senarai Tugasan</string>
+    <string name="distance_travelled">Jarak Perjalanan</string>
+    <string name="travel_time">Jarak Masa Perjalanan</string>
+    <string name="from_amp_to_date">From &amp;amp; To Date</string>
+    <string name="amount">Jumlah</string>
+    <string name="total_payout">Jumlah Bayaran</string>
+    <string name="no_report_found">Tiada Laporan Ditemui</string>
+    <string name="no_data_found">Tiada Data Ditemui</string>
+    <string name="title_fare_details">Maklumat Tambang</string>
+
+    <string name="title_earnings">Pendapatan</string>
+    <string name="please_select">Sila Pilih</string>
+    <string name="valid_one">Sila Pilih Pilihan Yang Sah</string>
+    <string name="please_enter">Sila Masukkan</string>
+    <string name="add_template">Tambah Templet</string>
+    <string name="template_msg">Adakah Anda Ingin Meneruskan Templat Ini ?</string>
+    <string name="go_to_list">Pergi</string>
+    <string name="reach_customer_loc">Sila Pergi Berdekatan Dengan Pelanggan Dan Selesaikan Perjalanan</string>
+    <string name="field_mandatory">Ruangan Wajib Diisi</string>
+    <string name="setting_app_version">Versi Aplikasi</string>
+    <string name="err_arrival_customer_loc">Sila Pergi Berdekatan Dengan Lokasi Pelanggan Dan Pilih Tiba</string>
+    <string name="err_destination">Sila Selesaikam Tugasan Pengambilan</string>
+    <string name="exceed_qty_dropdown">Kuantiti Mencapai Had! Kuantiti Tersedia Adalah</string>
+    <string name="something_went_wrong">Ralat</string>
+    <string name="logout_alert">Adakah Anda Pasti Untuk Log Keluar?</string>
+    <string name="customer_not_available">Pelanggan Tidak Tersedia</string>
+
+    <string name="error_four_max_images">Maksimum 4 Imej Dibenarkan Dalam 1 Tugasan</string>
+    <string name="task_details_actual_customer">Pelanggan Sebenar</string>
+    <string name="task_details_add_actual_customer">Tambah Pelanggan Sebenar</string>
+    <string name="task_details_add_actual_customer_id">ID Pelanggan</string>
+    <string name="task_details_add_actual_customer_name">Nama Pelanggan</string>
+    <string name="error_customer_id">Sila Masukkan ID Pelanggan</string>
+    <string name="error_customer_name">Sila Masukkan Nama Pelanggan</string>
+    <string-array name="task_status">
+
+        <item>Ditugaskan</item>
+        <item>Dimulakan</item>
+        <item>Dibatalkan</item>
+
+    </string-array>
+    <string-array name="filter_status_array">
+
+        <item>Semua</item>
+        <item>Berjaya</item>
+        <item>Diterima</item>
+        <item>Gagal</item>
+        <item>Dimulakkan</item>
+        <item>Dibatalkan</item>
+        <item>Telah Tiba</item>
+        <item>Ditolak</item>
+
+
+    </string-array>
+    <string-array name="arr_dashboard_menus">
+        <item>Tugasan</item>
+        <item>Laluan</item>
+        <item>Analisis</item>
+        <item>Profil</item>
+        <item>Tukar Kata Laluan</item>
+        <item>Notifikasi</item>
+        <item>Tetapan</item>
+        <item>Bantuan</item>
+        <item>Log Keluar</item>
+    </string-array>
+
+    <string-array name="day_array">
+        <item>Hari Ini</item>
+        <item>Minggu Ini</item>
+        <item>Bulan Ini</item>
+        <item>Tahun Ini</item>
+    </string-array>
+
+    <string name="task_details_update_actual_customer">Kemaskini Pelanggan Sebenar</string>
+
+    <string name="capture_location">Tangkap Lokasi</string>
+    <string name="location_captured">Lokasi pelanggan berjaya ditangkap!</string>
+    <string name="error_capture_location">&#8226; Sila tangkap lokasi pelanggan</string>
+    <string name="settings_ring_title_app_navigation">Pilih Navigasi</string>
+    <string name="google_map">Google Map</string>
+    <string name="waze">Waze</string>
+
+    //task status static
+    <string name="status_two_past">Ditugaskan</string>
+    <string name="status_two_future">Tetapkan</string>
+    <string name="status_three_past">Diterima</string>
+    <string name="status_three_future">Terima</string>
+    <string name="status_four_past">Dimulakan</string>
+    <string name="status_four_future">Mula</string>
+    <string name="status_five_past">Tiba</string>
+    <string name="status_five_future">Tiba</string>
+    <string name="status_six_past">Berjaya</string>
+    <string name="status_six_future">Kejayaan</string>
+    <string name="status_seven_past">Gagal</string>
+    <string name="status_seven_future">Gagal</string>
+    <string name="status_eight_past">Ditolak</string>
+    <string name="status_eight_future">Tolak</string>
+    <string name="status_nine_past">Dibatalkan</string>
+    <string name="status_nine_future">Batal</string>
+    <string name="status_ten_past">Diakui</string>
+    <string name="status_ten_future">Akui</string>
+    <string name="status_eleven_past">Pelanggan tidak tersedia</string>
+    <string name="status_eleven_future">Pelanggan tidak tersedia</string>
+    <string name="you_are_in_online">You are in online</string>
+    <string name="other">yang lain</string>
+    <string name="invalid_barcode">Kod Bar Tidak Sah</string>
+    <string name="enter_universal_product_code">Masukkan kod produk sejagat</string>
+    <string name="universal_product_code">Kod Produk Sejagat</string>
+    <string name="err_upc">Masukkan kod produk sejagat</string>
+    <string name="task_created">Tugas berjaya dibuat</string>
+    <string name="create">Buat</string>
+    <string name="tips">Sugerencias</string>
+    <string name="base_fare">Tarifa base</string>
+    <string name="duration_fare">Tarifa de duración</string>
+    <string name="distance_fare">Tarifa de distancia</string>
+    <string name="deduction">Deducción</string>
+    <string name="earnings_details">Detalles de ingresos</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="8dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/normal_font"
+                android:gravity="center"
+                android:id="@+id/tvTitle"
+                android:padding="@dimen/large_margin"
+                android:text="@string/settings_choose_vehicle_type"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_16sdp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vehicle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_font"
+            android:gravity="center"
+            android:id="@+id/no_vechile"
+            android:visibility="gone"
+            android:padding="@dimen/large_margin"
+            android:text="@string/no_vechicle_found"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_14sdp" />
+    </LinearLayout>
+
+</LinearLayout>

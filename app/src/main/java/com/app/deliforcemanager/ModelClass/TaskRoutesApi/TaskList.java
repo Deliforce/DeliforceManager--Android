@@ -1,0 +1,289 @@
+
+package com.app.deliforcemanager.ModelClass.TaskRoutesApi;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class TaskList {
+
+    @SerializedName("_id")
+    @Expose
+    private String id;
+    @SerializedName("isPickup")
+    @Expose
+    private Boolean isPickup;
+    @SerializedName("priority")
+    @Expose
+    private Integer priority;
+    @SerializedName("driverSignature")
+    @Expose
+    private String driverSignature;
+    @SerializedName("isDeleted")
+    @Expose
+    private Integer isDeleted;
+    @SerializedName("delay")
+    @Expose
+    private Integer delay;
+    @SerializedName("date")
+    @Expose
+    private String date;
+
+    @SerializedName("name")
+    @Expose
+    private String name;
+    @SerializedName("phone")
+    @Expose
+    private String phone;
+    @SerializedName("email")
+    @Expose
+    private String email;
+    @SerializedName("orderId")
+    @Expose
+    private String orderId;
+    @SerializedName("address")
+    @Expose
+    private Address address;
+    @SerializedName("driver")
+    @Expose
+    private String driver;
+    @SerializedName("color")
+    @Expose
+    private String color;
+    @SerializedName("timezone")
+    @Expose
+    private String timezone;
+    @SerializedName("businessType")
+    @Expose
+    private Integer businessType;
+    @SerializedName("userRole")
+    @Expose
+    private Integer userRole;
+    @SerializedName("user")
+    @Expose
+    private String user;
+    @SerializedName("clientId")
+    @Expose
+    private String clientId;
+    @SerializedName("taskStatus")
+    @Expose
+    private Integer taskStatus;
+    @SerializedName("taskId")
+    @Expose
+    private String taskId;
+    @SerializedName("created_at")
+    @Expose
+    private String createdAt;
+    @SerializedName("glympseId")
+    @Expose
+    private String glympseId;
+    @SerializedName("glympseDriverId")
+    @Expose
+    private String glympseDriverId;
+
+    public String getGlympseId() {
+        return glympseId;
+    }
+
+    public void setGlympseId(String glympseId) {
+        this.glympseId = glympseId;
+    }
+
+    public String getGlympseDriverId() {
+        return glympseDriverId;
+    }
+
+    public void setGlympseDriverId(String glympseDriverId) {
+        this.glympseDriverId = glympseDriverId;
+    }
+
+    @SerializedName("__v")
+    @Expose
+    private Integer v;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public Boolean getIsPickup() {
+        return isPickup;
+    }
+
+    public void setIsPickup(Boolean isPickup) {
+        this.isPickup = isPickup;
+    }
+
+    public Integer getPriority() {
+        return priority;
+    }
+
+    public void setPriority(Integer priority) {
+        this.priority = priority;
+    }
+
+    public String getDriverSignature() {
+        return driverSignature;
+    }
+
+    public void setDriverSignature(String driverSignature) {
+        this.driverSignature = driverSignature;
+    }
+
+    public Integer getIsDeleted() {
+        return isDeleted;
+    }
+
+    public void setIsDeleted(Integer isDeleted) {
+        this.isDeleted = isDeleted;
+    }
+
+    public Integer getDelay() {
+        return delay;
+    }
+
+    public void setDelay(Integer delay) {
+        this.delay = delay;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public String getDriver() {
+        return driver;
+    }
+
+    public void setDriver(String driver) {
+        this.driver = driver;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getTimezone() {
+        return timezone;
+    }
+
+    public void setTimezone(String timezone) {
+        this.timezone = timezone;
+    }
+
+    public Integer getBusinessType() {
+        return businessType;
+    }
+
+    public void setBusinessType(Integer businessType) {
+        this.businessType = businessType;
+    }
+
+    public Integer getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(Integer userRole) {
+        this.userRole = userRole;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getClientId() {
+        return clientId;
+    }
+
+    public void setClientId(String clientId) {
+        this.clientId = clientId;
+    }
+
+    public Integer getTaskStatus() {
+        return taskStatus;
+    }
+
+    public void setTaskStatus(Integer taskStatus) {
+        this.taskStatus = taskStatus;
+    }
+
+    public String getTaskId() {
+        return taskId;
+    }
+
+    public void setTaskId(String taskId) {
+        this.taskId = taskId;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Integer getV() {
+        return v;
+    }
+
+    public void setV(Integer v) {
+        this.v = v;
+    }
+
+}

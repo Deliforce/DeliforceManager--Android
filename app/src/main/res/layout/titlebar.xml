@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/normal_font"
+                android:gravity="center"
+                android:id="@+id/tvTitle"
+                android:padding="@dimen/large_margin"
+                android:text="@string/settings_choose_vehicle_type"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/_16sdp" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+
+    </LinearLayout>
+
+</LinearLayout>

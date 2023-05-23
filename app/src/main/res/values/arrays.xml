@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="array_menu_item">
+        <item>@string/nav_task</item>
+        <item>@string/nav_route</item>
+        <item>@string/nav_earnings</item>
+        <item>@string/nav_analytics</item>
+        <item>@string/nav_profile</item>
+        <item>@string/nav_password</item>
+        <item>@string/nav_settings</item>
+        <item>@string/nav_chat_with_us</item>
+        <item>@string/nav_help</item>
+        <item>@string/nav_logout</item>
+
+    </string-array>
+
+    <string-array name="array_without_earning">
+        <item>@string/nav_task</item>
+        <item>@string/nav_route</item>
+        <item>@string/nav_analytics</item>
+        <item>@string/nav_profile</item>
+        <item>@string/nav_password</item>
+        <item>@string/nav_settings</item>
+        <item>@string/nav_chat_with_us</item>
+        <item>@string/nav_help</item>
+        <item>@string/nav_logout</item>
+
+    </string-array>
+    <!--<string-array name="array_menu_item">-->
+    <!--<item>@string/nav_task</item>-->
+    <!--<item>@string/nav_route</item>-->
+    <!--<item>@string/nav_analytics</item>-->
+    <!--<item>@string/nav_profile</item>-->
+    <!--<item>@string/nav_password</item>-->
+    <!--<item>@string/nav_notifications</item>-->
+    <!--<item>@string/nav_settings</item>-->
+    <!--<item>@string/nav_help</item>-->
+    <!--<item>@string/nav_logout</item>-->
+
+    <!--</string-array>-->
+
+
+    <integer-array name="array_icon_bg">
+        <item>@drawable/task</item>
+        <item>@drawable/route</item>
+        <item>@drawable/ic_earnings</item>
+        <item>@drawable/analytics</item>
+        <item>@drawable/account</item>
+        <item>@drawable/change_pswd</item>
+        <item>@drawable/setting</item>
+        <item>@drawable/help</item>
+        <item>@drawable/help</item>
+        <item>@drawable/logout</item>
+
+    </integer-array>
+
+
+
+    <integer-array name="array_icon_without_earning">
+        <item>@drawable/task</item>
+        <item>@drawable/route</item>
+        <item>@drawable/analytics</item>
+        <item>@drawable/account</item>
+        <item>@drawable/change_pswd</item>
+        <item>@drawable/setting</item>
+        <item>@drawable/help</item>
+        <item>@drawable/help</item>
+        <item>@drawable/logout</item>
+
+    </integer-array>
+    <!--<integer-array name="array_icon_bg">-->
+    <!--<item>@drawable/task</item>-->
+    <!--<item>@drawable/route</item>-->
+    <!--<item>@drawable/analytics</item>-->
+    <!--<item>@drawable/account</item>-->
+    <!--<item>@drawable/change_pswd</item>-->
+    <!--<item>@drawable/notification</item>-->
+    <!--<item>@drawable/setting</item>-->
+    <!--<item>@drawable/help</item>-->
+    <!--<item>@drawable/logout</item>-->
+    <!--</integer-array>-->
+
+    <string name="nav_chat_with_us">Chat with us</string>
+</resources>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/analytics_bg"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_200sdp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                        android:id="@+id/circular_progress"
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="@dimen/_150sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        app:direction="clockwise"
+                        app:progressColor="@color/colorPrimary" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/inner_circle"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/work_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="#fff" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/time_white" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/hour_of_duty"
+                    android:textColor="@color/white" />
+
+                <Spinner
+                    android:id="@+id/days_spinner"
+                    style="@style/mySpinnerItemStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/spinner_shape"
+                    android:entries="@array/day_array" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/time_task"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time_task"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/color_bg" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/distance_task"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="@string/distance_task"
+                        android:textColor="@color/color_bg" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/stop_task"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stop_task"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/color_bg" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_bg" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/total_task_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:id="@+id/day_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/color_bg"
+                        android:textSize="@dimen/_12sdp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/task_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="10dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:background="@drawable/chart_bg"
+                android:orientation="vertical">
+
+
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:id="@+id/taskview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/small_margin" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/analytics_bg" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3">
+
+                        <com.app.deliforcemanager.CustomViews.DonutProgress
+                            android:id="@+id/roundProgress"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="start"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="10dp"
+                            android:backgroundTint="#0abe51"
+                            android:backgroundTintMode="add"
+                            custom:donut_finished_stroke_width="15dp"
+                            custom:donut_show_text="false"
+                            custom:donut_unfinished_color="#0abe51"
+                            custom:donut_unfinished_stroke_width="15dp"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/time_on_duty"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="#fff" />
+
+                            <TextView
+                                android:id="@+id/time_duty"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/color_bg" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:drawableStart="@drawable/green_shape"
+                                android:gravity="center"
+                                android:text="@string/onTime"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/onTime"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="8"
+                                android:textSize="@dimen/_12sdp"
+                                android:gravity="end"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:drawableStart="@drawable/blue_shape"
+                                android:gravity="center"
+                                android:textSize="@dimen/_12sdp"
+                                android:text="@string/delay"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/deleay"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="8"
+                                android:gravity="end"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_bg"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:baselineAligned="false">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        tools:ignore="NestedWeights">
+
+                        <TextView
+                            android:id="@+id/total_task_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/time_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="@dimen/_12sdp"
+                            android:textColor="@color/color_bg" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/mileview_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/chart_bg"
+                android:orientation="vertical">
+
+
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:id="@+id/mileview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/small_margin" />
+
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/color_bg"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:id="@+id/route_task_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3">
+
+                        <com.app.deliforcemanager.CustomViews.DonutProgress
+                            android:id="@+id/timeProgress"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="start"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="10dp"
+                            android:backgroundTint="#0abe51"
+                            android:backgroundTintMode="add"
+                            custom:donut_finished_stroke_width="15dp"
+                            custom:donut_show_text="false"
+                            custom:donut_unfinished_stroke_width="15dp"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tasks_on"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="#fff" />
+
+                            <TextView
+                                android:id="@+id/task_date"
+                                android:layout_width="wrap_content"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/color_bg" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:drawableStart="@drawable/blue_shape"
+                                android:gravity="center"
+                                android:text="@string/route"
+                                android:textSize="@dimen/_12sdp"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/routetime"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="8"
+                                android:gravity="end"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:drawableStart="@drawable/green_shape"
+                                android:gravity="center"
+                                android:textSize="@dimen/_12sdp"
+                                android:text="@string/idle"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/idle_time"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="8"
+                                android:gravity="end"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="#fff"
+                                tools:ignore="HardcodedText" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
