@@ -69,6 +69,8 @@ public class AnalyticsActivity extends BaseDrawerActivity {
 
     RecyclerView mileview_status, task_status;
 
+
+
     Spinner days_spinner;
 
     TextView work_txt, task_date, time_task, distance_task, stop_task, onTime, deleay, time_duty, task_completed, idle_time, route_time;
